@@ -2,44 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/*@import url("fonts.css");*/
-
-@font-face {
-    font-family: 'Stem-extra-light';
-    src: url('../fonts/stem/Stem-ExtraLight.woff2') format('woff2'),
-    url('../fonts/stem/Stem-ExtraLight.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-/*@font-face {*/
-/*    font-family: 'Stem';*/
-/*    src: url('path/to/stem-extra-light-italic.woff2') format('woff2'),*/
-/*    url('path/to/stem-extra-light-italic.woff') format('woff');*/
-/*    font-weight: 100; !* Толщина шрифта: Extra Light *!*/
-/*    font-style: italic; !* Курсив *!*/
-/*}*/
-@font-face {
-    font-family: 'Stem-light';
-    src: url('../fonts/stem/Stem-Light.woff2') format('woff2'),
-    url('../fonts/stem/Stem-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Stem-regular';
-    src: url('../fonts/stem/Stem-Regular.woff2') format('woff2'),
-    url('../fonts/stem/Stem-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Marianna';
-    src: url('../fonts/marianna-regular/marianna-regular.ttf') format('truetype'),
-    url('../fonts/marianna-regular/marianna-regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -47,14 +9,13 @@
 }
 
 body {
-    font-family: 'Stem-regular', sans-serif;
+    font-family: 'Stem-semi-light', sans-serif;
 }
-
-
 img {
     width: 100%;
     height: auto;
 }
+
 @layer utilities {
 
     .light {
@@ -81,6 +42,9 @@ img {
     .grey {
         @apply text-grey;
     }
+    .semi-grey {
+        @apply text-semi-grey;
+    }
 
     .flex-center {
         @apply flex justify-center items-center;
@@ -91,6 +55,7 @@ img {
     .flex-start {
         @apply flex justify-start items-center;
     }
+
     .font-light-10 {
         font-family: 'Stem-light', sans-serif;
         @apply text-[10px] font-light leading-[14px] tracking-[0.3px] 2xl:text-[14px] 2xl:leading-[22px] 2xl:tracking-[0.42px];
@@ -101,8 +66,14 @@ img {
     .font-regular-12 {
         @apply text-[12px] font-normal leading-[14px] tracking-[0.3px] 2xl:text-[14px] 2xl:leading-normal 2xl:tracking-[2.1px];
     }
+    .font-light-14 {
+        font-family: 'Stem-light', sans-serif;
+    }
     .font-regular-14 {
         @apply text-[14px] font-normal leading-[14px] tracking-[0.3px] 2xl:text-[16px] 2xl:leading-[24px] 2xl:tracking-[0.48px];
+    }
+    .font-semi-16 {
+        font-family: 'Stem-semi-light', sans-serif;
     }
     .font-regular-16 {
         font-family: 'Stem-regular', sans-serif;

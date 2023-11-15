@@ -18,6 +18,7 @@ export default {
           "secondary": "#CED6DD",
           "accent": "#D99E31",
           "grey": "#7d7e7d",
+          "semi-grey": "#E0E5E9",
         },
         fontFamily: {
           Stem: ["var(--font-stem)"],

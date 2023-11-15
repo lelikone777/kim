@@ -1,6 +1,8 @@
 
 
-document.querySelector('#header').innerHTML = `
+export const mainHeader = document.createElement('header')
+mainHeader.innerHTML = `
+ 
    <div class='header relative text-light bg-hero-main-page bg-[length:auto_100%] bg-no-repeat bg-top min-h-screen md:bg-cover'>
 
       <div class='header__container flex flex-col justify-between w-full h-screen m-auto'>
@@ -11,7 +13,7 @@ document.querySelector('#header').innerHTML = `
               <img src='/src/img/icons/burger-logo.svg' alt='menu button' class='flex-center'>
             </a>
 
-            <a href='#' class='header__logo w-[30px] h-[36px]'>
+            <a href='#' class='header__logo w-  [30px] h-[36px]'>
               <img src='/src/img/icons/main-logo.svg' alt='main logo' class='flex-center h-full'>
             </a>
           </div>
@@ -35,7 +37,6 @@ document.querySelector('#header').innerHTML = `
         </div>
 
         <div class='header__menu hidden lg:flex lg:flex-col hero-bg-gradient-top'>
-
           <div class='header__menu-top flex justify-between items-start w-full m-auto px-10 pt-5 pb-5 xl:px-20 2xl:px-[120px] max-w-screen-3xl'>
             <div class='header__address flex flex-col text-left mr-2'>
               <span class='font-light-10 opacity-75'>Адрес</span>
@@ -65,8 +66,6 @@ document.querySelector('#header').innerHTML = `
               </div>
             </a>
           </div>
-
-
 
           <div class='header__menu-bottom relative flex-between w-full m-auto px-10 xl:px-20 2xl:px-[120px] pt-5 max-w-screen-3xl'>
 
@@ -108,12 +107,10 @@ document.querySelector('#header').innerHTML = `
               </div>
               <span class='font-regular-12 tracking-[0.6px]'>EN</span>
             </a>
-
-
+            
           </div>
 
         </div>
-
 
         <div class='header__title text-left px-5 pb-5 md:px-10 md:pb-10 xl:px-20 xl:pb-20 hero-bg-gradient-top hero-bg-gradient-bottom'>
           <h1 class='font-title max-w-[360px] 2xl:max-w-[580px]'>
@@ -121,7 +118,8 @@ document.querySelector('#header').innerHTML = `
           </h1>
         </div>
       </div>
-
-
+      
     </div>
 `
+
+
