@@ -1,5 +1,3 @@
-
-
 export const mainHeader = document.createElement('header')
 mainHeader.innerHTML = `
  
@@ -69,7 +67,7 @@ mainHeader.innerHTML = `
 
           <div class='header__menu-bottom relative flex-between w-full m-auto px-10 xl:px-20 2xl:px-[120px] pt-5 max-w-screen-3xl'>
 
-            <div class='header__line absolute left-0 top-0 h-[2px] bg-grey w-screen'></div>
+            <div class='header__line absolute left-0 top-0 h-[2px] bg-grey w-full'></div>
 
             <a href='#' class='header__logo w-[27px] h-[32px] 2xl:w-[32px] 2xl:h-[32px] shrink-0 mr-20'>
               <img src='/src/img/icons/main-logo.svg' alt='main logo' class='flex-center h-full'>
@@ -121,5 +119,3 @@ mainHeader.innerHTML = `
       
     </div>
 `
-
-

@@ -60,6 +60,23 @@ img {
         font-family: 'Stem-light', sans-serif;
         @apply text-[10px] font-light leading-[14px] tracking-[0.3px] 2xl:text-[14px] 2xl:leading-[22px] 2xl:tracking-[0.42px];
     }
+    /*.font-regular-10 {*/
+    /*    @apply text-[10px] font-normal leading-normal tracking-[0.6px];*/
+    /*}*/
+    .font-semi-10 {
+        font-family: 'Stem-semi-light', sans-serif;
+        @apply text-[10px]
+    }
+    .font-semi-14 {
+        font-family: 'Stem-semi-light', sans-serif;
+        @apply text-[14px]
+    }
+    .font-semi-16 {
+        font-family: 'Stem-semi-light', sans-serif;
+        @apply text-[16px]
+    }
+
+
     .font-regular-10 {
         @apply text-[10px] font-normal leading-normal tracking-[0.6px];
     }
@@ -72,9 +89,7 @@ img {
     .font-regular-14 {
         @apply text-[14px] font-normal leading-[14px] tracking-[0.3px] 2xl:text-[16px] 2xl:leading-[24px] 2xl:tracking-[0.48px];
     }
-    .font-semi-16 {
-        font-family: 'Stem-semi-light', sans-serif;
-    }
+
     .font-regular-16 {
         font-family: 'Stem-regular', sans-serif;
         @apply text-[16px] leading-[22px] tracking-[0.42px];
