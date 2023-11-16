@@ -45,6 +45,9 @@ img {
     .semi-grey {
         @apply text-semi-grey;
     }
+    .deep-grey {
+        @apply text-deep-grey;
+    }
 
     .flex-center {
         @apply flex justify-center items-center;
@@ -104,6 +107,18 @@ img {
     }
     .hero-bg-gradient-bottom {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.50) 100%);
+    }
+
+    .section {
+        @apply my-14 md:my-20 xl:my-32 2xl:my-40
+    }
+    .section-title {
+        font-family: 'Stem-semi-light', sans-serif;
+        @apply text-semi-dark text-[26px] leading-[138%] tracking-[0.52px] uppercase 2xl:text-[40px]
+    }
+    .h4-title {
+        font-family: 'Stem-semi-light', sans-serif;
+        @apply text-semi-dark text-[20px] leading-[130%] tracking-[0.4px] 2xl:text-[32px] 2xl:tracking-[0.6px]
     }
 }
 

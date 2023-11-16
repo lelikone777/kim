@@ -11,7 +11,7 @@ mainHeader.innerHTML = `
               <img src='/src/img/icons/burger-logo.svg' alt='menu button' class='flex-center'>
             </a>
 
-            <a href='#' class='header__logo w-  [30px] h-[36px]'>
+            <a href='#' class='header__logo w-[30px] h-[36px]'>
               <img src='/src/img/icons/main-logo.svg' alt='main logo' class='flex-center h-full'>
             </a>
           </div>
@@ -111,9 +111,11 @@ mainHeader.innerHTML = `
         </div>
 
         <div class='header__title text-left px-5 pb-5 md:px-10 md:pb-10 xl:px-20 xl:pb-20 hero-bg-gradient-top hero-bg-gradient-bottom'>
-          <h1 class='font-title max-w-[360px] 2xl:max-w-[580px]'>
-            Студия Современного барельефа Леонида Кима
-          </h1>
+          <div class='max-w-screen-3xl m-auto'>
+            <h1 class='font-title max-w-[360px] 2xl:max-w-[580px]'>
+              Студия Современного барельефа Леонида Кима
+            </h1>
+          </div>
         </div>
       </div>
       
