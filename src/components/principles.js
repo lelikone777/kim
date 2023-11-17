@@ -14,7 +14,7 @@ principles.innerHTML = `
   </div>
 
   <div
-    class="principles__list flex flex-col lg:flex-row gap-y-5 lg:gap-y-10 lg:gap-x-[42px] xl:gap-x-[48px] pr-5 lg:pr-0"
+    class="principles__list flex flex-col lg:flex-row gap-y-5 lg:gap-y-10 lg:gap-x-[42px] xl:gap-x-[48px] pr-5 md:pr-0 lg:pr-0"
   >
     <div
       class="principles__card flex lg:flex-col flex-1 gap-x-5 md:gap-x-10 pr-3 lg:pr-0 relative"
