@@ -17,6 +17,7 @@ export default {
         grey: '#7d7e7d',
         'semi-grey': '#E0E5E9',
         'deep-grey': '#35424F',
+        'light-grey': '#78848F',
       },
       fontFamily: {
         Stem: ['var(--font-stem)'],

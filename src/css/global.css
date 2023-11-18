@@ -48,6 +48,9 @@ img {
     .deep-grey {
         @apply text-deep-grey;
     }
+    .light-grey {
+        @apply text-light-grey;
+    }
 
     .flex-center {
         @apply flex justify-center items-center;

@@ -3,7 +3,7 @@ mainFooter.innerHTML = `
 <div class="footer">
       <div class="footer__container">
         <div
-          class="footer__wrap flex gap-y-5 md:gap-y-10 flex-col pt-10 md:pt-16 pb-5 md:pb-10 xl:p-20 w-full m-auto px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-3xl"
+          class="footer__wrap flex gap-y-5 md:gap-y-10 flex-col pt-10 md:pt-16 pb-5 md:pb-10 xl:p-20 w-full m-auto px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-3xl border border-t-semi-grey"
         >
           <a href="#" class="footer__lang w-full flex">
             <div class="header__lang-icon flex-center mr-2">
