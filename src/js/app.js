@@ -9,8 +9,3 @@ const app = document.querySelector('#app')
 app.append(mainHeader)
 app.append(main)
 app.append(mainFooter)
-
-
-
-
-

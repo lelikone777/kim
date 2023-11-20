@@ -3,7 +3,7 @@ signature.classList.add('signature')
 
 signature.innerHTML = `
 <div
-  class="signature__wrapper relative flex justify-end lg:justify-between gap-x-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-3xl my-8 md:my-20 xl:my-[102px] 2xl:my-[160px] m-auto"
+  class="signature__wrapper relative flex justify-end lg:justify-between gap-x-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl my-8 md:my-20 xl:my-[102px] 2xl:my-[160px] m-auto"
 >
   <div
     class="signature__frame hidden md:flex absolute border border-semi-grey bottom-0 top-0 left-0 right-0 md:left-10 md:right-10 xl:left-20 xl:right-20 2xl:left-[120px] 2xl:right-[120px]"
@@ -13,7 +13,7 @@ signature.innerHTML = `
   >
     <div class="signature__text text-right lg:text-left max-w-[295px]">
       <p
-        class="text-[14px] md:text-[18px] 2xl:text-[24px] leading-[143%] tracking-[0.4px] md:leading-[155%] md:tracking-[0.6px] 2xl:tracking-[0.72px]"
+        class="font-stem-extra-light-italic text-[14px] md:text-[18px] 2xl:text-[24px] leading-[143%] tracking-[0.4px] md:leading-[155%] md:tracking-[0.6px] 2xl:tracking-[0.72px]"
       >
         Помогаю людям через искусство раскрываться в пространствах, в
         которых они живут и работают

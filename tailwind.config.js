@@ -18,10 +18,15 @@ export default {
         'semi-grey': '#E0E5E9',
         'deep-grey': '#35424F',
         'light-grey': '#78848F',
+        'lighter-grey': '#F3F5F6',
       },
       fontFamily: {
-        Stem: ['var(--font-stem)'],
-        Marianna: ['var(--font-marianna)'],
+        'stem-regular': ['Stem-regular', 'sans-serif'],
+        'stem-light': ['Stem-light', 'sans-serif'],
+        'stem-extra-light': ['Stem-extra-light', 'sans-serif'],
+        'stem-light-italic': ['Stem-light-italic', 'sans-serif'],
+        'stem-extra-light-italic': ['Stem-extra-light-italic', 'sans-serif'],
+        Marianna: ['Marianna, sans-serif'],
       },
       backgroundImage: {
         'hero-main-page': "url('/src/img/images/hero-main-page.jpg')",

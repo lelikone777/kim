@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Stem-semi-light', sans-serif;
+    @apply text-dark font-stem-regular bg-light
 }
 img {
     width: 100%;
@@ -17,6 +17,8 @@ img {
 }
 
 @layer utilities {
+
+    /* --- colors ---*/
 
     .light {
         @apply text-light;
@@ -51,6 +53,11 @@ img {
     .light-grey {
         @apply text-light-grey;
     }
+    .lighter-grey {
+        @apply text-lighter-grey;
+    }
+
+    /*--- positions ---*/
 
     .flex-center {
         @apply flex justify-center items-center;
@@ -62,55 +69,104 @@ img {
         @apply flex justify-start items-center;
     }
 
-    .font-light-10 {
-        font-family: 'Stem-light', sans-serif;
-        @apply text-[10px] font-light leading-[14px] tracking-[0.3px] 2xl:text-[14px] 2xl:leading-[22px] 2xl:tracking-[0.42px];
+    /*--- text ---*/
+
+    .text-10-300 {
+        @apply font-stem-extra-light text-[10px] 2xl:text-[14px] font-extralight leading-[160%] 2xl:leading-[157%] tracking-[0.42px] 2xl:tracking-[0.48px]
     }
+
+    .text-10-350-header {
+        @apply font-stem-regular text-[10px] 2xl:text-[14px] font-normal leading-[140%] 2xl:leading-[160%] tracking-[0.3px] 2xl:tracking-[0.42px] opacity-70
+
+    }
+
+    .text-10-400 {
+        @apply font-stem-light text-[10px] 2xl:text-[14px] font-normal leading-[160%] 2xl:leading-[157%] tracking-[0.42px] 2xl:tracking-[0.48px]
+    }
+
+    .text-12-400-header {
+        @apply font-stem-light text-[12px] 2xl:text-[14px] font-normal leading-normal 2xl:leading-[157%] tracking-[0.6px] 2xl:tracking-[2.1px]
+    }
+
+    .text-14-300 {
+        @apply font-stem-light text-[14px] 2xl:text-[16px] font-light leading-[160%] 2xl:leading-[150%] tracking-[0.42px] 2xl:tracking-[0.48px]
+    }
+
+    .text-14-400 {
+        @apply font-stem-light text-[14px] 2xl:text-[16px] font-normal leading-[160%] 2xl:leading-[150%] tracking-[0.42px] 2xl:tracking-[0.48px]
+    }
+
+    .text-16-400 {
+        @apply font-stem-light text-[16px] 2xl:text-[20px] font-normal leading-[150%] 2xl:leading-[140%] tracking-[0.48px] 2xl:tracking-[0.6px]
+    }
+
+    .text-20-300 {
+        @apply font-stem-light text-[20px] 2xl:text-[32px] leading-[130%] 2xl:leading-[125%] tracking-[0.4px] 2xl:tracking-[0.64px]
+    }
+
+    .text-26-300 {
+        @apply font-stem-light text-[26px] 2xl:text-[40px] leading-[140%] 2xl:leading-[135%] tracking-[0.52px] 2xl:tracking-[0.8px]
+    }
+
+    .text-32-300 {
+        @apply font-stem-extra-light font-light text-[32px] 2xl:text-[48px] leading-[140%] 2xl:leading-[125%] tracking-[1.6px] 2xl:tracking-[2.4px] uppercase
+    }
+
+    .text-button-primary {
+        @apply text-light bg-primary font-stem-light text-[14px] 2xl:text-[16px] font-normal leading-normal 2xl:leading-[150%] tracking-[2.1px] 2xl:tracking-[2.4px] uppercase
+    }
+
+
+    /*.font-light-10 {*/
+    /*    font-family: 'Stem-light', sans-serif;*/
+    /*    @apply text-[10px] font-light leading-[14px] tracking-[0.3px] 2xl:text-[14px] 2xl:leading-[22px] 2xl:tracking-[0.42px];*/
+    /*}*/
     /*.font-regular-10 {*/
     /*    @apply text-[10px] font-normal leading-normal tracking-[0.6px];*/
     /*}*/
-    .font-semi-10 {
-        font-family: 'Stem-semi-light', sans-serif;
-        @apply text-[10px]
-    }
-    .font-semi-14 {
-        font-family: 'Stem-semi-light', sans-serif;
-        @apply text-[14px]
-    }
-    .font-semi-16 {
-        font-family: 'Stem-semi-light', sans-serif;
-        @apply text-[16px]
-    }
+    /*.font-semi-10 {*/
+    /*    font-family: 'Stem-semi-light', sans-serif;*/
+    /*    @apply text-[10px]*/
+    /*}*/
+    /*.font-semi-14 {*/
+    /*    font-family: 'Stem-semi-light', sans-serif;*/
+    /*    @apply text-[14px]*/
+    /*}*/
+    /*.font-semi-16 {*/
+    /*    font-family: 'Stem-semi-light', sans-serif;*/
+    /*    @apply text-[16px]*/
+    /*}*/
 
+    /*.font-regular-10 {*/
+    /*    @apply text-[10px] font-normal leading-normal tracking-[0.6px];*/
+    /*}*/
+    /*.font-regular-12 {*/
+    /*    @apply text-[12px] font-normal leading-[14px] tracking-[0.3px] 2xl:text-[14px] 2xl:leading-normal 2xl:tracking-[2.1px];*/
+    /*}*/
+    /*.font-light-14 {*/
+    /*    font-family: 'Stem-light', sans-serif;*/
+    /*}*/
+    /*.font-regular-14 {*/
+    /*    @apply text-[14px] font-normal leading-[14px] tracking-[0.3px] 2xl:text-[16px] 2xl:leading-[24px] 2xl:tracking-[0.48px];*/
+    /*}*/
+    /*.font-regular-16 {*/
+    /*    font-family: 'Stem-regular', sans-serif;*/
+    /*    @apply text-[16px] leading-[22px] tracking-[0.42px];*/
+    /*}*/
+    /*.font-title {*/
+    /*    font-family: 'Stem-light', sans-serif;*/
+    /*    @apply text-[32px] leading-[44px] tracking-[1.6px] uppercase 2xl:text-[48px] 2xl:leading-[60px] 2xl:tracking-[2.4px];*/
+    /*}*/
+    /*.h4-title {*/
+    /*    font-family: 'Stem-semi-light', sans-serif;*/
+    /*    @apply text-semi-dark text-[20px] leading-[130%] tracking-[0.4px] 2xl:text-[32px] 2xl:tracking-[0.6px]*/
+    /*}*/
+    /*.marianna {*/
+    /*    font-family: 'Marianna', sans-serif;*/
+    /*    @apply text-[36px] md:text-[48px] 2xl:text-[64px] leading-[90%]*/
+    /*}*/
 
-    .font-regular-10 {
-        @apply text-[10px] font-normal leading-normal tracking-[0.6px];
-    }
-    .font-regular-12 {
-        @apply text-[12px] font-normal leading-[14px] tracking-[0.3px] 2xl:text-[14px] 2xl:leading-normal 2xl:tracking-[2.1px];
-    }
-    .font-light-14 {
-        font-family: 'Stem-light', sans-serif;
-    }
-    .font-regular-14 {
-        @apply text-[14px] font-normal leading-[14px] tracking-[0.3px] 2xl:text-[16px] 2xl:leading-[24px] 2xl:tracking-[0.48px];
-    }
-    .font-regular-16 {
-        font-family: 'Stem-regular', sans-serif;
-        @apply text-[16px] leading-[22px] tracking-[0.42px];
-    }
-    .font-title {
-        font-family: 'Stem-light', sans-serif;
-        @apply text-[32px] leading-[44px] tracking-[1.6px] uppercase 2xl:text-[48px] 2xl:leading-[60px] 2xl:tracking-[2.4px];
-    }
-    .h4-title {
-        font-family: 'Stem-semi-light', sans-serif;
-        @apply text-semi-dark text-[20px] leading-[130%] tracking-[0.4px] 2xl:text-[32px] 2xl:tracking-[0.6px]
-    }
-    .marianna {
-        font-family: 'Marianna', sans-serif;
-        @apply text-[36px] md:text-[48px] 2xl:text-[64px] leading-[90%]
-    }
+    /*--- gradients ---*/
 
     .hero-bg-gradient-top {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%);
@@ -119,12 +175,19 @@ img {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.50) 100%);
     }
 
+    /*--- layout ---*/
+
     .section {
-        @apply my-14 md:my-20 xl:my-32 2xl:my-40
+        @apply my-14 md:my-20 xl:my-[104px] 2xl:my-[160px]
     }
-    .section-title {
-        font-family: 'Stem-semi-light', sans-serif;
-        @apply text-semi-dark text-[26px] leading-[138%] tracking-[0.52px] uppercase 2xl:text-[40px]
+
+    /*--- slider ---*/
+
+    .slider-button-outer-active {
+        @apply border border-secondary
+    }
+    .slider-button-inner-active {
+        @apply bg-primary
     }
 
 }
