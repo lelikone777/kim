@@ -29,7 +29,7 @@ export default {
         marianna: ['Marianna, sans-serif'],
       },
       backgroundImage: {
-        'hero-main-page': "url('/src/img/images/hero-main-page.jpg')",
+        'hero-main-page': "url('/img/images/hero-main-page.jpg')",
       },
       boxShadow: {},
       screens: {

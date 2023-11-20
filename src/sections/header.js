@@ -8,10 +8,10 @@ mainHeader.innerHTML = `
         <div class='header__menu--mobile flex-between xl:hidden w-full px-5 md:px-10 pt-3 pb-10 hero-bg-gradient-top'>
           <div class='header__left flex-between w-[86px] shrink-1 mr-2'>
             <button class='header__menu-button w-9 h-9 relative'>
-              <img src='/src/img/icons/burger-logo.svg' alt='menu button' class='flex-center'>
+              <img src='/img/icons/burger-logo.svg' alt='menu button' class='flex-center'>
             </button>
             <a href='#' class='header__logo w-[30px] h-[36px]'>
-              <img src='/src/img/icons/main-logo.svg' alt='main logo' class='flex-center h-full'>
+              <img src='/img/icons/main-logo.svg' alt='main logo' class='flex-center h-full'>
             </a>
           </div>
           <div class='header__info flex flex-col items-center max-w-[150px]'>
@@ -23,7 +23,7 @@ mainHeader.innerHTML = `
             </p>
           </div>
           <a href='#' class='header__cart-button ml-2 w-[33px] h-[27px] relative shrink-0'>
-            <img src='/src/img/icons/cart-logo.svg' alt='cart logo'>
+            <img src='/img/icons/cart-logo.svg' alt='cart logo'>
             <div class='header__cart-button_badge absolute top-[-7px] right-[-7px] w-[20px] h-[20px] bg-primary text-light flex-center font-regular-10'>
               <span>2</span>
             </div>
@@ -54,7 +54,7 @@ mainHeader.innerHTML = `
             </button>
 
             <a href='#' class='header__cart-button ml-2 w-[36px] h-[36px] relative shrink-0 self-center'>
-              <img src='/src/img/icons/cart-logo.svg' alt='cart logo'>
+              <img src='/img/icons/cart-logo.svg' alt='cart logo'>
               <div class='header__cart-button_badge absolute top-[-7px] right-[-7px] w-[20px] h-[20px] bg-primary text-light flex-center font-regular-10'>
                 <span>1</span>
               </div>
@@ -64,7 +64,7 @@ mainHeader.innerHTML = `
           <div class='header__menu-bottom relative flex-between w-full m-auto px-10 xl:px-20 2xl:px-[120px] pt-5 max-w-screen-2xl'>
             <div class='header__line absolute left-0 top-0 h-[2px] bg-grey w-full'></div>
             <a href='#' class='header__logo w-[27px] h-[32px] 2xl:w-[32px] 2xl:h-[32px] shrink-0 mr-20'>
-              <img src='/src/img/icons/main-logo.svg' alt='main logo' class='flex-center h-full'>
+              <img src='/img/icons/main-logo.svg' alt='main logo' class='flex-center h-full'>
             </a>
 
             <nav class='header__nav w-full'>
@@ -95,7 +95,7 @@ mainHeader.innerHTML = `
 
             <a href='#' class='header__lang flex-between ml-20'>
               <div class='header__lang-icon flex-center mr-2'>
-                <img src='/src/img/icons/flag-logo-eng.svg' alt='flag eng' class='2xl:w-[32px] 2xl:h-[26px]'>
+                <img src='/img/icons/flag-logo-eng.svg' alt='flag eng' class='2xl:w-[32px] 2xl:h-[26px]'>
               </div>
               <span class='text-12-400-header'>EN</span>
             </a>
