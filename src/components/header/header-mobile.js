@@ -18,7 +18,7 @@ headerMobile.innerHTML = `
         <path d="M1 1L21 21" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
         <path d="M1 21L21 1" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
       </svg>
-    </button>    
+    </button>     
     <a href="#" class="header__lang flex">
       <div class="header__lang-icon flex-center mr-2">
         <img src="/src/img/icons/flag-logo-eng.svg" alt="flag eng" class="2xl:w-[32px] 2xl:h-[26px]"/>
@@ -28,7 +28,16 @@ headerMobile.innerHTML = `
 
   </div>
   
-  <nav class='header__mobile-nav flex flex-col gap-y-[32px]'>
+  <nav class='header__mobile-nav flex flex-col gap-y-[32px] text-14-300'>
+  
+    <div class='table'>
+      <ul class="header__list [&>li]:py-2.5 [&>li]:border-b [&>li]:border-semi-grey [&>li>a]:flex [&>li>a]:w-full">
+        <li class="header__list-item border-t border-semi-grey">
+          <a href="#"><span>Главная страница</span></a>
+        </li>
+      </ul>
+    </div>
+  
     <div class='table'>
       <h6 class="mb-1 text-start text-16-400 !font-bold">О нас</h6>
       <ul class="header__list [&>li]:py-2.5 [&>li]:border-b [&>li]:border-semi-grey [&>li>a]:flex [&>li>a]:w-full">

@@ -12,7 +12,7 @@ app.append(mainHeader)
 app.append(main)
 app.append(mainFooter)
 
-// Добавляем header__dropdown при наведении мыши
+// Добавляем выпадающее меню при наведении мыши на пункты меню на десктоп версии
 const headerNavItems = document.querySelectorAll('.header__nav-item')
 headerNavItems.forEach((navItem) => {
   navItem.addEventListener('mouseenter', () => {
@@ -27,15 +27,13 @@ headerNavItems.forEach((navItem) => {
   })
 })
 
+// Добавляем мобильное меню при нажатии на кнопку меню на мобильной версии
 const burgerButton = document.querySelector('.header__menu-button')
 burgerButton.addEventListener('click', () => {
   console.log('click')
-  // Проверяем наличие дочернего элемента с классом headerMobileMenu
   if (burgerButton.contains(headerMobile)) {
-    // Если есть, то удаляем его
     burgerButton.removeChild(headerMobile)
   } else {
-    // Если нет, то добавляем его
     burgerButton.appendChild(headerMobile)
   }
 })
