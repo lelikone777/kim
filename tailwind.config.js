@@ -26,7 +26,7 @@ export default {
         'stem-extra-light': ['Stem-extra-light', 'sans-serif'],
         'stem-light-italic': ['Stem-light-italic', 'sans-serif'],
         'stem-extra-light-italic': ['Stem-extra-light-italic', 'sans-serif'],
-        Marianna: ['Marianna, sans-serif'],
+        marianna: ['Marianna, sans-serif'],
       },
       backgroundImage: {
         'hero-main-page': "url('/src/img/images/hero-main-page.jpg')",

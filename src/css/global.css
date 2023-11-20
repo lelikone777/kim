@@ -116,6 +116,10 @@ img {
         @apply text-light bg-primary font-stem-light text-[14px] 2xl:text-[16px] font-normal leading-normal 2xl:leading-[150%] tracking-[2.1px] 2xl:tracking-[2.4px] uppercase
     }
 
+    .text-marianna {
+        @apply font-marianna text-[36px] md:text-[48px] 2xl:text-[64px] leading-[90%]
+    }
+
 
     /*.font-light-10 {*/
     /*    font-family: 'Stem-light', sans-serif;*/
@@ -161,10 +165,7 @@ img {
     /*    font-family: 'Stem-semi-light', sans-serif;*/
     /*    @apply text-semi-dark text-[20px] leading-[130%] tracking-[0.4px] 2xl:text-[32px] 2xl:tracking-[0.6px]*/
     /*}*/
-    /*.marianna {*/
-    /*    font-family: 'Marianna', sans-serif;*/
-    /*    @apply text-[36px] md:text-[48px] 2xl:text-[64px] leading-[90%]*/
-    /*}*/
+
 
     /*--- gradients ---*/
 

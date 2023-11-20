@@ -19,7 +19,7 @@ signature.innerHTML = `
         которых они живут и работают
       </p>
     </div>
-    <div class="signature__tag text-right lg:text-left marianna">
+    <div class="signature__tag text-right lg:text-left text-marianna">
       <p>
         Леонид <br />
         Ким
