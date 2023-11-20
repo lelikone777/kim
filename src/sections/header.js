@@ -7,9 +7,9 @@ mainHeader.innerHTML = `
       
         <div class='header__menu--mobile flex-between xl:hidden w-full px-5 md:px-10 pt-3 pb-10 hero-bg-gradient-top'>
           <div class='header__left flex-between w-[86px] shrink-1 mr-2'>
-            <a href='#' class='header__menu-button w-9 h-9'>
+            <button class='header__menu-button w-9 h-9 relative'>
               <img src='/src/img/icons/burger-logo.svg' alt='menu button' class='flex-center'>
-            </a>
+            </button>
             <a href='#' class='header__logo w-[30px] h-[36px]'>
               <img src='/src/img/icons/main-logo.svg' alt='main logo' class='flex-center h-full'>
             </a>
@@ -68,7 +68,7 @@ mainHeader.innerHTML = `
             </a>
 
             <nav class='header__nav w-full'>
-              <ul class='flex-between w-full uppercase text-12-400-header'>
+              <ul class='flex-between w-full uppercase text-12-400-header [&>li]:relative'>
                 <li class='header__nav-item'>
                   <a href='#' class='header__nav-link'><span>Студия</span></a>
                 </li>
