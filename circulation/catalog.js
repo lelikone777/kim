@@ -122,8 +122,8 @@ catalog.innerHTML = `
           </ul>
         </div>
         
-        <div class='catalog__form-style>
-          <h5 class='mb-2 font-stem-light text-dark'>Форма</h5>
+        <div class='catalog__form-style'>
+          <h5 class='mb-2 font-stem-light text-dark'>Стиль</h5>
           <ul>
             <li class='contact__form-check flex items-center gap-x-3 border-t border-b py-2'>
               <input id='style-1' type='checkbox' value='' class='relative peer shrink-0 appearance-none w-5 h-5 2xl:w-7 2xl:h-7 border border-primary rounded-none bg-light'>
