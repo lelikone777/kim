@@ -80,7 +80,7 @@ mainFooter.innerHTML = `
 
       <div class='flex flex-col md:flex-row md:justify-between gap-5 md:gap-10'>
         <button class='footer__button flex-center xl:justify-start flex-1 md:flex-1 md:order-1 w-full'>
-          <span class='w-full min-w-[220px] flex justify-center items-center xl:justify-start xl:w-fit text-button-primary px-5 py-4'>
+          <span class='w-full min-w-[220px] flex justify-center items-center xl:justify-start xl:w-fit text-button-primary bg-primary text-light px-5 py-4'>
             Связаться с нами
           </span>
         </button>

@@ -1,19 +1,10 @@
-export const projects = document.createElement('section')
-projects.classList.add('projects')
+export const exclusiveProjects = document.createElement('section')
+exclusiveProjects.classList.add('exclusive-projects', 'section')
 
-projects.innerHTML = `
-
-<div class='projects__wrapper relative flex flex-col gap-y-5 xl:gap-y-10 mb-14 md:mb-20 xl:mb-[104px] 2xl:mb-[160px] max-w-screen-2xl m-auto'>
+exclusiveProjects.innerHTML = `
+  <div class='projects__wrapper relative flex flex-col gap-y-5 xl:gap-y-10 mb-14 md:mb-20 xl:mb-[104px] 2xl:mb-[160px] max-w-screen-2xl m-auto'>
   <div class='projects__title flex flex-col gap-y-3 px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-[714px] 2xl:max-w-[1150px] items-start text-left'>
-    <p class='inline-block text-[26px] 2xl:text-[40px] leading-[140%] tracking-[0.5px] 2xl:tracking-[0.8px] uppercase'>
-      <span class='text-light-grey'>C 2015 года создали</span> 65 уникальных
-      проектов <span class='text-light-grey'>ручной работы</span>
-      <span
-        class='relative ml-2 min-w-[122px] 2xl:min-w-[160px] inline-block bg-accent py-[2px] 2xl:py-[4px] px-2.5 text-light text-[10px] 2xl:text-[14px] leading-[140%] 2xl:leading-[160%] tracking-[0.3px] 2xl:tracking-[0.42px] normal-case before:absolute before:content-[&quot;&quot;] before:w-0 before:h-0 before:border-t-[22px] before:border-r-0 before:border-b-0 before:border-l-[5px] before:border-l-transparent before:border-solid before:border-accent before:top-0 before:left-[-4px] after:absolute after:content-[&quot;&quot;] after:w-0 after:h-0 after:border-b-[22px] after:border-r-0 after:border-t-0 after:border-l-[5px] after:border-l-transparent after:border-solid after:border-accent after:bottom-0 after:left-[-4px]'>
-        Для внутреннего <br />
-        и внешнего декора
-        </span>
-    </p>
+    <h2 class='inline-block text-24-300 uppercase'>Эксклюзивные проекты</h2>
   </div>
 
   <div class='projects__box flex flex-col gap-y-5 pl-5 md:pl-10 xl:pl-20 2xl:pl-[120px] 2xl:pr-0 max-w-screen-2xl'>
@@ -264,5 +255,4 @@ projects.innerHTML = `
     </div>
   </div>
 </div>
-
 `

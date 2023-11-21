@@ -24,7 +24,7 @@ mainHeader.innerHTML = `
           </div>
           <a href='#' class='header__cart-button ml-2 w-[33px] h-[27px] relative shrink-0'>
             <img src='/img/icons/cart-logo.svg' alt='cart logo'>
-            <div class='header__cart-button_badge absolute top-[-7px] right-[-7px] w-[20px] h-[20px] bg-primary text-light flex-center font-regular-10'>
+            <div class='header__cart-button_badge absolute top-[-7px] right-[-7px] w-[20px] h-[20px] bg-primary text-light flex-center text-10-400'>
               <span>2</span>
             </div>
           </a>

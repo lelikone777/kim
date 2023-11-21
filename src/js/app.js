@@ -1,8 +1,8 @@
 import '/src/css/fonts.css'
 import '/src/css/global.css'
-import { mainHeader } from '/src/sections/header.js'
+import { mainHeader } from '/src/sections/header/header.js'
 import { main } from '/src/sections/main.js'
-import { mainFooter } from '/src/sections/footer.js'
+import { mainFooter } from '/src/sections/footer/footer.js'
 import { headerDropdown } from '../components/header/header-dropdown.js'
 import { headerMobile } from '../components/header/header-mobile.js'
 

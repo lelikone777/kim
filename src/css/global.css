@@ -77,7 +77,6 @@ img {
 
     .text-10-350-header {
         @apply font-stem-regular text-[10px] 2xl:text-[14px] font-normal leading-[140%] 2xl:leading-[160%] tracking-[0.3px] 2xl:tracking-[0.42px] opacity-70
-
     }
 
     .text-10-400 {
@@ -96,6 +95,10 @@ img {
         @apply font-stem-light text-[14px] 2xl:text-[16px] font-normal leading-[160%] 2xl:leading-[150%] tracking-[0.42px] 2xl:tracking-[0.48px]
     }
 
+    .text-button-primary {
+        @apply  text-[14px] 2xl:text-[16px] font-normal leading-normal 2xl:leading-[150%] tracking-[2.1px] 2xl:tracking-[2.4px] uppercase
+    }
+
     .text-16-400 {
         @apply font-stem-light text-[16px] 2xl:text-[20px] font-normal leading-[150%] 2xl:leading-[140%] tracking-[0.48px] 2xl:tracking-[0.6px]
     }
@@ -104,16 +107,22 @@ img {
         @apply font-stem-light text-[20px] 2xl:text-[32px] leading-[130%] 2xl:leading-[125%] tracking-[0.4px] 2xl:tracking-[0.64px]
     }
 
+    .text-24-300-xl {
+        @apply font-stem-light text-[24px] 2xl:text-[36px] leading-[130%] 2xl:leading-[125%] tracking-[0.4px] 2xl:tracking-[0.72px]
+    }
+
+    .text-24-300 {
+        @apply font-stem-light text-[24px] 2xl:text-[36px] leading-[130%] 2xl:leading-[125%] tracking-[0.4px] 2xl:tracking-[0.72px]
+    }
+
+
     .text-26-300 {
         @apply font-stem-light text-[26px] 2xl:text-[40px] leading-[140%] 2xl:leading-[135%] tracking-[0.52px] 2xl:tracking-[0.8px]
     }
 
+
     .text-32-300 {
         @apply font-stem-extra-light font-light text-[32px] 2xl:text-[48px] leading-[140%] 2xl:leading-[125%] tracking-[1.6px] 2xl:tracking-[2.4px] uppercase
-    }
-
-    .text-button-primary {
-        @apply text-light bg-primary font-stem-light text-[14px] 2xl:text-[16px] font-normal leading-normal 2xl:leading-[150%] tracking-[2.1px] 2xl:tracking-[2.4px] uppercase
     }
 
     .text-marianna {
