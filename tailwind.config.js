@@ -4,6 +4,7 @@ export default {
     './index.html',
     './src/**/*.{html,js,ts,jsx,tsx}',
     './circulation/*.{html,js,ts,jsx,tsx}',
+    './product/*.{html,js,ts,jsx,tsx}',
   ],
   theme: {
     container: {

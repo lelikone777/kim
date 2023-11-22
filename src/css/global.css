@@ -127,6 +127,10 @@ img {
         @apply font-marianna text-[36px] md:text-[48px] 2xl:text-[64px] leading-[90%]
     }
 
+    .tabs-button-active {
+        @apply bg-primary text-light
+    }
+
 
     /*.font-light-10 {*/
     /*    font-family: 'Stem-light', sans-serif;*/
@@ -198,5 +202,9 @@ img {
         @apply bg-primary
     }
 
+}
+
+.lost {
+    border: 1px solid red;
 }
 
