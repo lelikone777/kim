@@ -91,6 +91,10 @@ img {
         @apply font-stem-light text-[14px] 2xl:text-[16px] font-light leading-[160%] 2xl:leading-[150%] tracking-[0.42px] 2xl:tracking-[0.48px]
     }
 
+    .text-14-20-300 {
+        @apply font-stem-light text-[14px] 2xl:text-[20px] font-light leading-[160%]  tracking-[0.42px] 2xl:tracking-[0.6px]
+    }
+
     .text-14-400 {
         @apply font-stem-light text-[14px] 2xl:text-[16px] font-normal leading-[160%] 2xl:leading-[150%] tracking-[0.42px] 2xl:tracking-[0.48px]
     }
@@ -118,6 +122,8 @@ img {
     .text-26-300 {
         @apply font-stem-light text-[26px] 2xl:text-[40px] leading-[140%] 2xl:leading-[135%] tracking-[0.52px] 2xl:tracking-[0.8px]
     }
+
+
 
     .text-32-300 {
         @apply font-stem-extra-light font-light text-[32px] 2xl:text-[48px] leading-[140%] 2xl:leading-[125%] tracking-[1.6px] 2xl:tracking-[2.4px] uppercase
