@@ -9,6 +9,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         circulation: resolve(__dirname, 'circulation/index.html'),
+        product: resolve(__dirname, 'product/index.html'),
       },
     },
   },
