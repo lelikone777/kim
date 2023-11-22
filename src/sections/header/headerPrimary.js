@@ -83,7 +83,11 @@ headerPrimary.innerHTML = `
       <div class='header__menu-bottom relative flex-between w-full m-auto px-10 xl:px-20 2xl:px-[120px] pt-5 pb-5 max-w-screen-2xl'>
         <div class='header__line absolute left-0 top-0 h-[2px] bg-semi-grey w-full'></div>
         <a href='#' class='header__logo w-[27px] h-[32px] 2xl:w-[32px] 2xl:h-[32px] shrink-0 mr-20'>
-          <img src='/img/icons/main-logo.svg' alt='main logo' class='flex-center h-full'>
+           <svg width="31" height="36" viewBox="0 0 31 36" fill="none" xmlns="http://www.w3.org/2000/svg" class='[&>path]:stroke-primary [&>path]:fill-primary'>
+            <path d="M26.2216 36.0001H4.17401L0 31.8338V25.7122L4.17401 21.5459H26.2216L30.3956 25.7122V31.8338L26.2216 36.0001ZM4.17401 31.8338H26.2216V25.7122H4.17401V31.8338Z" fill="white"/>
+            <path d="M27.2868 0L23.8235 1.85186L26.2407 5.78513V20.0339H27.7381L30.394 17.3813L30.413 5.1362L27.2868 0Z" fill="white"/>
+            <path d="M22.2291 5.7041H0V9.87036H18.1519C14.469 13.4981 7.90019 15.6469 0 15.6469V17.195L2.54867 19.7389C6.86274 19.4956 10.8846 18.6344 14.2995 17.2088C18.9197 15.2775 22.3104 12.3384 24.1017 8.70712L22.2291 5.7041Z" fill="white"/>
+          </svg>
         </a>
 
         <nav class='header__nav w-full'>

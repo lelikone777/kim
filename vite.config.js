@@ -10,6 +10,8 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         circulation: resolve(__dirname, 'circulation/index.html'),
         product: resolve(__dirname, 'product/index.html'),
+        exclusive: resolve(__dirname, 'exclusive/index.html'),
+        project: resolve(__dirname, 'project/index.html'),
       },
     },
   },

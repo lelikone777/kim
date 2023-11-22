@@ -5,6 +5,8 @@ export default {
     './src/**/*.{html,js,ts,jsx,tsx}',
     './circulation/*.{html,js,ts,jsx,tsx}',
     './product/*.{html,js,ts,jsx,tsx}',
+    './exclusive/*.{html,js,ts,jsx,tsx}',
+    './project/*.{html,js,ts,jsx,tsx}',
   ],
   theme: {
     container: {

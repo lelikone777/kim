@@ -1,5 +1,5 @@
 export const exclusiveProjects = document.createElement('section')
-exclusiveProjects.classList.add('exclusive-projects', 'section')
+exclusiveProjects.classList.add('exclusive', 'section')
 
 exclusiveProjects.innerHTML = `
   <div class='projects__wrapper relative flex flex-col gap-y-5 xl:gap-y-10 mb-14 md:mb-20 xl:mb-[104px] 2xl:mb-[160px] max-w-screen-2xl m-auto'>
@@ -12,6 +12,7 @@ exclusiveProjects.innerHTML = `
       <div
         class='projects__slider-wrapper flex flex-col gap-y-5 overflow-hidden'>
         <div class='projects__slider-slides flex gap-x-5 md:gap-x-10'>
+        
           <div class='projects__slide flex flex-col gap-y-5 2xl:gap-y-8'>
             <div
               class='projects__slide-image w-[300px] h-[400px] xl:w-[374px] xl:h-[480px] 2xl:w-[528px] 2xl:h-[720px] overflow-hidden'>
