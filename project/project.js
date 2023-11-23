@@ -9,6 +9,8 @@ import { review } from './review.js'
 import { whyProject } from './whyProject.js'
 import { scene } from './scene.js'
 import { price } from '../src/sections/price.js'
+import { projectSlider } from './projectSlider.js'
+import { process } from './process.js'
 
 const project = document.querySelector('#project')
 
@@ -20,6 +22,8 @@ project.append(review)
 project.append(whyProject)
 
 project.append(scene)
+project.append(process)
+project.append(projectSlider)
 
 project.append(price)
 project.append(mainFooter)

@@ -5,8 +5,7 @@ scene.innerHTML = `
 
 <div class='contact__wrapper relative max-w-screen-2xl m-auto'>
 
-  <div class='contact__image absolute left-0 right-0 xl:right-auto z-10 top-3 md:top-5 2xl:top-1/2 2xl:translate-y-[-50%] h-[55vw] md:h-[46.878vw] xl:h-[422px] 2xl:h-[458px] 2xl:w-[936px] overflow-hidden'>
-<!--    <img src='/img/images/contact-image-2xl.jpg' alt='contact image' class='relative bottom-[3%] md:bottom-[6%] xl:bottom-[3%]'>-->
+  <div class='contact__image absolute left-0 right-0 xl:right-auto z-10 top-3 md:top-5  h-[55vw] md:h-[46.878vw] 2xl:w-[936px] xl:h-auto xl:top-1/2 xl:translate-y-[-50%] overflow-hidden'>
       <img src='/img/images/project-page/3d-sm.jpg' alt='' class='md:hidden'>
       <img src='/img/images/project-page/3d-md.jpg' alt='' class='hidden md:block xl:hidden'>
       <img src='/img/images/project-page/3d-xl.jpg' alt='' class='hidden xl:block 2xl:hidden'>
@@ -17,7 +16,7 @@ scene.innerHTML = `
   
     <div class='flop h-[55vw] md:h-[46.878vw] xl:h-full relative  md:top-5 xl:flex-1'></div>
     
-    <div class='contact__info flex flex-col gap-y-5 pt-2 md:gap-y-10 2xl:gap-y-16 xl:flex-1'>
+    <div class='contact__info flex flex-col gap-y-5 pt-2 md:gap-y-10 2xl:gap-y-16 xl:flex-1 xl:pl-20'>
       <div class='contact__text flex flex-col gap-y-3 items-start text-left'>
         <p class='text-26-300 uppercase'>
           Примерьте арт объект в своей 3D сцене
