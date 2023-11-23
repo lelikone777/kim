@@ -5,7 +5,7 @@ productInfo.innerHTML = `
 
   <div class='product-info__wrapper flex flex-col gap-y-1 my-5 ml-auto mr-auto px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl'>   
     <div class='product-info__pagination text-14-400 text-primary mb-1'>
-      <ul class='flex flex-wrap gap-x-3 gap-y-1 [&>li>a>span]:!font-bold'>
+      <ul class='flex flex-wrap gap-x-3 gap-y-1'>
         <li><a href='#'><span>Главная</span></a></li>
         <li><a href='#'><span>Магазин</span></a></li>
         <li><a href='#'><span>Тиражная коллекция</span></a></li>

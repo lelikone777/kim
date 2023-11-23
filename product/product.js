@@ -8,6 +8,7 @@ import { whyUs } from './whyUs.js'
 import { recommendation } from './recommendation.js'
 import { others } from './others.js'
 import { contact } from '../src/sections/contact.js'
+import { productPrice } from './productPrice.js'
 
 const productPage = document.querySelector('#product')
 
@@ -17,5 +18,5 @@ productPage.append(ar)
 productPage.append(whyUs)
 productPage.append(recommendation)
 productPage.append(others)
-productPage.append(contact)
+productPage.append(productPrice)
 productPage.append(mainFooter)
