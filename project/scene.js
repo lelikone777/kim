@@ -34,7 +34,7 @@ scene.innerHTML = `
           
           <div class='relative md:col-span-2'>
             <input type='text' placeholder='прикрепите файл' class='contact__form-phone flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase'>
-            
+            или напишите в whatsapp
             <svg xmlns="http://www.w3.org/2000/svg" width="11" height="22" viewBox="0 0 11 22" fill="none" class='absolute right-4 top-1/2 translate-y-[-50%]'>
               <path d="M5.5 0.867123C1.81818 0.867123 1 0.335507 1 6.77432V16.2258C1 19.4883 3.01472 20.8564 5.5 20.8564C7.98528 20.8564 10 19.4883 10 16.2258V6.77432" stroke="#033260"/>
               <path d="M5.50117 0.856445C6.49528 0.856445 7.30117 0.856445 7.30117 3.79415V16.0039C7.30117 17.6263 6.85117 18.3033 5.50117 18.3033C4.15117 18.3033 3.70117 17.6263 3.70117 16.0039V5.24131" stroke="#033260"/>
@@ -73,7 +73,7 @@ scene.innerHTML = `
       </div>
 
         <button
-          class='price__whatsapp-button flex flex-center xl:justify-start w-full lg:w-fit border border-primary px-6 py-[14px] 2xl:px-10 2xl:py-[22p] text-primary text-[12px] 2xl:text-[16px] font-bold leading-normal tracking-[0.6px] 2xl:tracking-[2.4px] uppercase'>
+          class='price__whatsapp-button flex flex-center xl:justify-start w-full lg:w-fit border border-primary px-6 py-[14px] 2xl:px-10 2xl:py-[22p] text-primary text-[12px] 2xl:text-[16px] font-bold leading-normal tracking-[0.6px] 2xl:tracking-[2.4px] uppercase mt-5'>
           <img src='/img/icons/whatsapp-logo.svg' alt='whatsapp logo' class='w-[20px] h-[20px]'/>
           <span class='ml-2'>или напишите в whatsapp</span>
         </button>

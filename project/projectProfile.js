@@ -31,49 +31,49 @@ projectProfile.innerHTML = `
             />
           </div>
           
-            <div class='shop__slider-bottom flex justify-center xl:justify-between items-center w-full '>
-            
-              <div class='shop__slide-buttons flex justify-center gap-x-5 lg:gap-x-10 lg:order-2 [&>button]:w-4 [&>button]:shrink-0 xl:ml-20'>
-                <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
-                  <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
-                </button>
-                <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4 slider-button-outer-active'>
-                  <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary slider-button-inner-active'></span>
-                </button>
-                <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
-                  <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
-                </button>
-                <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
-                  <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
-                </button>
-                <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
-                  <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
-                </button>
-                <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
-                  <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
-                </button>
-                <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
-                  <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
-                </button>
-                <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
-                  <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
-                </button>
-              </div>
-            
-              <div class='shop__nav-buttons gap-x-2 hidden xl:flex xl:ml-20 lg:order-3'>
-                <button class='shop__nav-button flex justify-center items-center px-[13px] py-[19px] 2xl:px-[21px] 2xl:py-[27px] border border-primary'>
-                  <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class='rotate-180 scale-y-[-1]'>
-                    <path class='stroke-primary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
-                  </svg>
-                </button>
-                <button
-                  class='shop__nav-button flex justify-center items-center px-[13px] py-[19px] 2xl:px-[21px] 2xl:py-[27px] border border-primary'>
-                  <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
-                    <path class='stroke-primary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
-                  </svg>
-                </button>
-              </div>
+          <div class='shop__slider-bottom flex justify-center xl:justify-between items-center w-full '>
+          
+            <div class='shop__slide-buttons flex justify-center gap-x-5 lg:gap-x-10 lg:order-2 [&>button]:w-4 [&>button]:shrink-0 xl:ml-20'>
+              <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
+                <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
+              </button>
+              <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4 slider-button-outer-active'>
+                <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary slider-button-inner-active'></span>
+              </button>
+              <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
+                <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
+              </button>
+              <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
+                <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
+              </button>
+              <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
+                <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
+              </button>
+              <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
+                <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
+              </button>
+              <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
+                <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
+              </button>
+              <button class='projects-slide-button flex-center w-3 h-3 2xl:w-4 2xl:h-4'>
+                <span class='w-1 h-1 2xl:w-1.5 2xl:h-1.5 bg-secondary'></span>
+              </button>
             </div>
+          
+            <div class='shop__nav-buttons gap-x-2 hidden xl:flex xl:ml-20 lg:order-3'>
+              <button class='shop__nav-button flex justify-center items-center px-[13px] py-[19px] 2xl:px-[21px] 2xl:py-[27px] border border-primary'>
+                <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class='rotate-180 scale-y-[-1]'>
+                  <path class='stroke-primary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
+                </svg>
+              </button>
+              <button
+                class='shop__nav-button flex justify-center items-center px-[13px] py-[19px] 2xl:px-[21px] 2xl:py-[27px] border border-primary'>
+                <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
+                  <path class='stroke-primary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       

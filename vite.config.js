@@ -12,6 +12,7 @@ export default defineConfig({
         product: resolve(__dirname, 'product/index.html'),
         exclusive: resolve(__dirname, 'exclusive/index.html'),
         project: resolve(__dirname, 'project/index.html'),
+        academy: resolve(__dirname, 'academy/index.html'),
       },
     },
   },

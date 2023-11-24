@@ -7,6 +7,7 @@ export default {
     './product/*.{html,js,ts,jsx,tsx}',
     './exclusive/*.{html,js,ts,jsx,tsx}',
     './project/*.{html,js,ts,jsx,tsx}',
+    './academy/*.{html,js,ts,jsx,tsx}',
   ],
   theme: {
     container: {
