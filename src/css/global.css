@@ -197,6 +197,10 @@ img {
         @apply my-14 md:my-20 xl:my-[104px] 2xl:my-[160px]
     }
 
+    .container-padding {
+        @apply px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl m-auto
+    }
+
     /*--- slider ---*/
 
     .slider-button-outer-active {

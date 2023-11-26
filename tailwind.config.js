@@ -8,6 +8,8 @@ export default {
     './exclusive/*.{html,js,ts,jsx,tsx}',
     './project/*.{html,js,ts,jsx,tsx}',
     './academy/*.{html,js,ts,jsx,tsx}',
+    './modals/*.{html,js,ts,jsx,tsx}',
+    './cart/*.{html,js,ts,jsx,tsx}',
   ],
   theme: {
     container: {
