@@ -10,6 +10,7 @@ export default {
     './academy/*.{html,js,ts,jsx,tsx}',
     './modals/*.{html,js,ts,jsx,tsx}',
     './cart/*.{html,js,ts,jsx,tsx}',
+    './order/*.{html,js,ts,jsx,tsx}',
   ],
   theme: {
     container: {
