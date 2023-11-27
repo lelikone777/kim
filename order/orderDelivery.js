@@ -20,7 +20,7 @@ orderDelivery.innerHTML = `
 
 <form action='' class=''>  
   <div class='order-section w-full flex flex-col items-center m-auto px-5 md:px0 py-8 md:py-12 2xl:py-20 border-b border-secondary'>
-    <div class='order-wrapper flex flex-col m-auto mx-5 md:mx-10 2xl:mx-16 pb-0 md:max-w-[688px] xl:max-w-[582px] 2xl:max-w-[816px] gap-y-8 md:gap-y-12 2xl:gap-y-20'>
+    <div class='order-wrapper flex flex-col m-auto md:mx-10 2xl:mx-16 pb-0 md:max-w-[688px] xl:max-w-[582px] 2xl:max-w-[816px] gap-y-8 md:gap-y-12 2xl:gap-y-20'>
     
       <div class='order-contact'>
         <h3 class='text-20-300 mb-3'>Ваши контактные данные</h3>
