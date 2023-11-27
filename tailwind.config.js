@@ -41,6 +41,7 @@ export default {
       },
       backgroundImage: {
         'hero-main-page': "url('/img/images/hero-main-page.jpg')",
+        'order-map': "url('/img/images/order/order-map-2xl.jpg')",
       },
       boxShadow: {},
       screens: {

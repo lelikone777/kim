@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.10",
+    "flowbite": "^2.2.0",
+    "flowbite-datepicker": "^1.2.4",
     "tailwindcss-animate": "^1.0.7",
     "vite-plugin-inspect": "^0.7.42"
   }
