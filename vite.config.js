@@ -16,7 +16,7 @@ export default defineConfig({
 
         modals: resolve(__dirname, 'modals/index.html'),
         cart: resolve(__dirname, 'cart/index.html'),
-        order: resolve(__dirname, 'cart/index.html'),
+        order: resolve(__dirname, 'order/index.html'),
       },
     },
   },

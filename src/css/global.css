@@ -32,6 +32,7 @@ img {
     .primary {
         @apply text-primary;
     }
+
     .secondary {
         @apply text-secondary;
     }
@@ -100,7 +101,7 @@ img {
     }
 
     .text-button-primary {
-        @apply font-stem-regular text-[14px] 2xl:text-[16px] font-normal leading-normal 2xl:leading-[150%] tracking-[2.1px] 2xl:tracking-[2.4px] uppercase
+        @apply font-stem-regular text-[14px] 2xl:text-[16px] font-normal leading-normal 2xl:leading-[150%] tracking-[2.1px] 2xl:tracking-[2.4px] uppercase hover:text-red-700
     }
 
     .text-16-400 {

@@ -23,6 +23,7 @@ export default {
         dark: '#050122',
         'semi-dark': '#050122',
         primary: '#033260',
+        'primary-dark': '#1F2C4E',
         secondary: '#CED6DD',
         accent: '#D99E31',
         grey: '#7d7e7d',

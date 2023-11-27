@@ -1,10 +1,10 @@
 import '/src/css/fonts.css'
 import '/src/css/global.css'
-import { mainHeader } from '/src/sections/header/header.js'
-import { main } from '/src/sections/main.js'
-import { mainFooter } from '/src/sections/footer/footer.js'
-import { headerDropdown } from '../components/header/header-dropdown.js'
-import { headerMobile } from '../components/header/header-mobile.js'
+import { mainHeader } from '/src/components/header/header.js'
+import { main } from '/mainPage/main.js'
+import { mainFooter } from '/src/components/footer/footer.js'
+import { headerDropdown } from './src/components/header/header-dropdown.js'
+import { headerMobile } from './src/components/header/header-mobile.js'
 
 const app = document.querySelector('#app')
 

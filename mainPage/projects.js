@@ -18,9 +18,9 @@ projects.innerHTML = `
 
   <div class='projects__box flex flex-col gap-y-5 pl-5 md:pl-10 xl:pl-20 2xl:pl-[120px] 2xl:pr-0 max-w-screen-2xl'>
     <div class='projects__slider'>
-      <div
-        class='projects__slider-wrapper flex flex-col gap-y-5 overflow-hidden'>
+      <div class='projects__slider-wrapper flex flex-col gap-y-5 overflow-hidden'>
         <div class='projects__slider-slides flex gap-x-5 md:gap-x-10'>
+        
           <div class='projects__slide flex flex-col gap-y-5 2xl:gap-y-8'>
             <div
               class='projects__slide-image w-[300px] h-[400px] xl:w-[374px] xl:h-[480px] 2xl:w-[528px] 2xl:h-[720px] overflow-hidden'>
@@ -28,17 +28,17 @@ projects.innerHTML = `
             </div>
             <div
               class='projects__slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
-              <div
-                class='projects__slide-title flex items-center justify-center w-fit'>
-                <h5
-                  class='text-[14px] 2xl:text-[16px] leading-normal tracking-[2.1px]'>
-                  <span>Мужское-женское-1</span>
-                </h5>
-                <button class='flex justify-between items-center ml-2'>
-                  <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
-                    <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
-                  </svg>
-                </button>
+              <div class='projects__slide-title flex items-center justify-center w-fit'>
+
+              <button class='flex justify-between items-center gap-x-2'>
+                <span class='text-button-primary text-primary hover:text-primary-dark'>
+                  Мужское-женское-1
+                </span>
+                <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
+                  <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
+                </svg>
+              </button>
+                      
               </div>
               <div class='projects__slide-data flex justify-start items-center gap-x-4'>
                 <div class='projects__slide-size flex flex-col'>
@@ -68,14 +68,14 @@ projects.innerHTML = `
             </div>
             <div class='projects__slide-info flex flex-col gap-y-3 2xl:gap-y-5' >
               <div class='projects__slide-title flex items-center justify-center w-fit'>
-                <h5 class='text-[14px] 2xl:text-[16px] leading-normal tracking-[2.1px]'>
-                  <span>Мужское-женское-1</span>
-                </h5>
-                <button class='flex justify-between items-center ml-2'>
-                  <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
-                    <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
-                  </svg>
-                </button>
+               <button class='flex justify-between items-center gap-x-2 ml-2'>
+                <span class='text-button-primary'>
+                  Мужское-женское-1
+                </span>
+                <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
+                  <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
+                </svg>
+              </button>
               </div>
               <div
                 class='projects__slide-data flex justify-start items-center gap-x-4'>
