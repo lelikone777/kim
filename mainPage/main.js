@@ -1,3 +1,5 @@
+import '/src/css/fonts.css'
+import '/src/css/global.css'
 import { signature } from './signature.js'
 import { projects } from './projects.js'
 import { principles } from './principles.js'

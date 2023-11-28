@@ -13,7 +13,8 @@ export default defineConfig({
         exclusive: resolve(__dirname, 'exclusive/index.html'),
         project: resolve(__dirname, 'project/index.html'),
         academy: resolve(__dirname, 'academy/index.html'),
-        'study-studio': resolve(__dirname, 'academy/index.html'),
+        'study-studio': resolve(__dirname, 'study-studio/index.html'),
+        'mk-studio': resolve(__dirname, 'mk-studio/index.html'),
 
         modals: resolve(__dirname, 'modals/index.html'),
         cart: resolve(__dirname, 'cart/index.html'),

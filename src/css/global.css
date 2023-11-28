@@ -132,8 +132,14 @@ img {
         @apply font-stem-light text-[24px] 2xl:text-[36px] leading-[130%] 2xl:leading-[125%] tracking-[0.4px] 2xl:tracking-[0.72px]
     }
 
+
+
     .text-26-300 {
         @apply font-stem-light text-[26px] 2xl:text-[40px] leading-[140%] 2xl:leading-[135%] tracking-[0.52px] 2xl:tracking-[0.8px]
+    }
+
+    .text-24-26-40-300 {
+        @apply font-stem-light text-[24px] leading-[125%] tracking-[0.4px] md:text-[26px] md:leading-[136%] md:tracking-[0.52px] 2xl:text-[40px] 2xl:tracking-[0.8px]
     }
 
     .text-32-300 {
