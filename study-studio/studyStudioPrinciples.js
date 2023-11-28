@@ -1,12 +1,12 @@
-export const academyPrinciples = document.createElement('section')
-academyPrinciples.classList.add('academy-principles', 'section')
+export const studyStudioPrinciples = document.createElement('section')
+studyStudioPrinciples.classList.add('study-studio__principles', 'section')
 
-academyPrinciples.innerHTML = `
+studyStudioPrinciples.innerHTML = `
   
   <div class='principles__wrapper flex flex-col gap-y-5 pl-0 pr-0 pb-5 md:pb-10 xl:p-20 w-full m-auto px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl'>
     <div class='principles__title text-26-300 text-left '>
       <div class='m-auto px-5 md:px-0'>
-        <h2 class='uppercase'>Кому подойдёт работа с барельефом</h2>
+        <h2 class='uppercase'>Кому подойдёт</h2>
       </div>
     </div>
     
@@ -21,16 +21,16 @@ academyPrinciples.innerHTML = `
     
         <div class='principles__card-image'>
           <div class='sm:hidden w-[80px] overflow-hidden'>
-            <img src='/img/images/academy/academy-principles-sm-1.jpg' alt='principles image' />
+            <img src='/img/images/study-studio/principles-sm-1.jpg' alt='principles image' />
           </div>
           <div class='hidden sm:flex w-[197px] lg:w-full'>
-            <img src='/img/images/academy/academy-principles-2xl-1.jpg' alt='principles image' />
+            <img src='/img/images/study-studio/principles-2xl-1.jpg' alt='principles image' />
           </div>
         </div>
         <div class='principles__card-info flex flex-col justify-center gap-y-3 py-3 md:py-7 lg:pb-12'>
           <div class='principles__card-text'>
             <p class='text-14-300 text-deep-grey max-w-[96%]'>
-              Если вы не мыслите свою жизнь без искусства и творчества.
+              Если вы любите общение и атмосферу арт-вечеринок
             </p>
           </div>
         </div>
@@ -47,16 +47,16 @@ academyPrinciples.innerHTML = `
     
         <div class='principles__card-image'>
           <div class='sm:hidden w-[80px] overflow-hidden'>
-            <img src='/img/images/academy/academy-principles-sm-2.jpg' alt='principles image' />
+            <img src='/img/images/study-studio/principles-sm-2.jpg' alt='principles image' />
           </div>
           <div class='hidden sm:flex w-[197px] lg:w-full'>
-            <img src='/img/images/academy/academy-principles-2xl-2.jpg' alt='principles image' />
+            <img src='/img/images/study-studio/principles-2xl-2.jpg' alt='principles image' />
           </div>
         </div>
         <div class='principles__card-info flex flex-col justify-center gap-y-3 py-3 md:py-7'>
           <div class='principles__card-text'>
             <p class='text-14-300 text-deep-grey max-w-[96%]'>
-              Если вы устали от рутины и хотите  переключиться и попробовать что-то новое.
+              Если вы хотите заниматься под руководством профессионала и перенимать его опыт
             </p>
           </div>
         </div>
@@ -72,16 +72,16 @@ academyPrinciples.innerHTML = `
     
         <div class='principles__card-image'>
           <div class='sm:hidden w-[80px] overflow-hidden'>
-            <img src='/img/images/academy/academy-principles-sm-3.jpg' alt='principles image' />
+            <img src='/img/images/study-studio/principles-sm-3.jpg' alt='principles image' />
           </div>
           <div class='hidden sm:flex w-[197px] lg:w-full'>
-            <img src='/img/images/academy/academy-principles-2xl-3.jpg' alt='principles image' />
+            <img src='/img/images/study-studio/principles-2xl-3.jpg' alt='principles image' />
           </div>
         </div>
         <div class='principles__card-info flex flex-col justify-center gap-y-3 py-3 md:py-7'>
           <div class='principles__card-text'>
             <p class='text-14-300 text-deep-grey max-w-[96%]'>
-              Если вы ищите медитации и созидания и готовы наполниться душевным покоем и жизненной энергией через ручную работу.
+              Если вы предпочитаете полностью погружаться в процесс, ни на что не отвлекаясь
             </p>
           </div>
         </div>

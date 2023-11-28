@@ -1,5 +1,5 @@
 export const orderDelivery = document.createElement('div')
-orderDelivery.classList.add('order-delivery', 'bg-light')
+orderDelivery.classList.add('order-delivery')
 
 orderDelivery.innerHTML = `
 

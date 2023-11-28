@@ -70,6 +70,18 @@ img {
         @apply flex justify-start items-center;
     }
 
+    .section {
+        @apply my-14 md:my-20 xl:my-[104px] 2xl:my-[160px]
+    }
+
+    .container-padding {
+        @apply px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl m-auto
+    }
+
+    .absolute-center {
+        @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+    }
+
     /*--- text ---*/
 
     .text-10-300 {
@@ -97,11 +109,11 @@ img {
     }
 
     .text-14-400 {
-        @apply font-stem-light text-[14px] 2xl:text-[16px] font-normal leading-[160%] 2xl:leading-[150%] tracking-[0.42px] 2xl:tracking-[0.48px]
+        @apply font-stem-regular text-[14px] 2xl:text-[16px] font-normal leading-[160%] 2xl:leading-[150%] tracking-[0.42px] 2xl:tracking-[0.48px]
     }
 
     .text-button-primary {
-        @apply font-stem-regular text-[14px] 2xl:text-[16px] font-normal leading-normal 2xl:leading-[150%] tracking-[2.1px] 2xl:tracking-[2.4px] uppercase hover:text-red-700
+        @apply font-stem-regular text-[14px] 2xl:text-[16px] font-normal leading-normal 2xl:leading-[150%] tracking-[2.1px] 2xl:tracking-[2.4px] uppercase
     }
 
     .text-16-400 {
@@ -192,15 +204,6 @@ img {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.50) 100%);
     }
 
-    /*--- layout ---*/
-
-    .section {
-        @apply my-14 md:my-20 xl:my-[104px] 2xl:my-[160px]
-    }
-
-    .container-padding {
-        @apply px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl m-auto
-    }
 
     /*--- slider ---*/
 

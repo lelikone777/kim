@@ -164,6 +164,8 @@ catalog.innerHTML = `
       
       </div>
     </div>
+    
+    
     <div class='catalog__list flex flex-col w-full xl:w-auto xl:flex-[5] sm:flex-row sm:flex-wrap gap-x-5 gap-y-10 md:gap-y-[60px] xl:gap-x-[45px] xl:gap-y-[62px] 2xl:gap-x-[48px] 2xl:gap-y-[84px] [&>div]:flex-1 [&>div]:basis-[32%] [&>div]:xl:basis-[30%]'>
     
       <div class='catalog__list-item flex  flex-col gap-y-4'>
