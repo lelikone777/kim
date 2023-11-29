@@ -1,13 +1,13 @@
-export const academyWhy = document.createElement('section')
-academyWhy.classList.add('academy-why', 'section')
+export const mkOnlineHow = document.createElement('section')
+mkOnlineHow.classList.add('newHobby-why', 'section')
 
-academyWhy.innerHTML = `
+mkOnlineHow.innerHTML = `
  
    <div class='wrapper px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl m-auto '>
   
     <div class='principles__title text-26-300 text-left pb-5 xl:pb-10'>
       <div class='m-auto md:px-0'>
-        <h2 class='uppercase'>почему стоит научиться работать с барельфом и почему у нас</h2>
+        <h2 class='uppercase'>Как проходит обучение</h2>
       </div>
     </div> 
   </div>
