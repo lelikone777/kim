@@ -13,6 +13,7 @@ import { mkStudioAfterTraining } from './mkStudioAfterTraining.js'
 import { mkStudioReviews } from './mkStudioReviews.js'
 import { mkStudioFAQ } from './mkStudioFAQ.js'
 import { mkStudioQuestions } from './mkStudioQuestions.js'
+import { mkStudioRecommend } from './mkStudioRecommend.js'
 
 const mkStudio = document.querySelector('#mk-studio')
 
@@ -27,5 +28,6 @@ mkStudio.append(mkStudioAdvantages)
 mkStudio.append(mkStudioAfterTraining)
 mkStudio.append(mkStudioReviews)
 mkStudio.append(mkStudioFAQ)
+mkStudio.append(mkStudioRecommend)
 mkStudio.append(mkStudioQuestions)
 mkStudio.append(mainFooter)

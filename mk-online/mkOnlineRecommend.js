@@ -5,7 +5,7 @@ mkOnlineRecommend.innerHTML = `
   
   <div class='projects__wrapper relative flex flex-col gap-y-5 xl:gap-y-10 mb-14 md:mb-20 xl:mb-[104px] 2xl:mb-[160px] max-w-screen-2xl m-auto'>
   <div class='projects__title flex flex-col gap-y-3 px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-[714px] 2xl:max-w-[1150px] items-start text-left w-full'>
-    <h2 class='inline-block text-24-300 uppercase'>Рекомендуем обратить внимание на эти работы</h2>
+    <h2 class='inline-block text-24-300 uppercase'>Рекомендуем обратить внимание на эти мастер-классы</h2>
   </div>
 
   <div class='projects__box flex flex-col gap-y-5 pl-5 md:pl-10 xl:pl-20 2xl:pl-[120px] 2xl:pr-0 max-w-screen-2xl'>
