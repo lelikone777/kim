@@ -3,15 +3,17 @@ export default {
   content: [
     './index.html',
     './src/**/*.{html,js,ts,jsx,tsx}',
+    './mainPage/*.{html,js,ts,jsx,tsx}',
     './circulation/*.{html,js,ts,jsx,tsx}',
     './product/*.{html,js,ts,jsx,tsx}',
     './exclusive/*.{html,js,ts,jsx,tsx}',
     './project/*.{html,js,ts,jsx,tsx}',
     './academy/*.{html,js,ts,jsx,tsx}',
-    './modals/*.{html,js,ts,jsx,tsx}',
+    './newHobby/*.{html,js,ts,jsx,tsx}',
     './study-studio/*.{html,js,ts,jsx,tsx}',
     './mk-studio/*.{html,js,ts,jsx,tsx}',
     './cart/*.{html,js,ts,jsx,tsx}',
+    './modals/*.{html,js,ts,jsx,tsx}',
     './order/*.{html,js,ts,jsx,tsx}',
   ],
   theme: {

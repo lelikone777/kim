@@ -1,5 +1,5 @@
 export const academyProfile = document.createElement('section')
-academyProfile.classList.add('academy-profile')
+academyProfile.classList.add('newHobby-profile')
 
 academyProfile.innerHTML = `
 

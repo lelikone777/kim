@@ -1,5 +1,5 @@
 export const academyLearn = document.createElement('section')
-academyLearn.classList.add('academy-learn', 'section')
+academyLearn.classList.add('newHobby-learn', 'section')
 
 academyLearn.innerHTML = `
   

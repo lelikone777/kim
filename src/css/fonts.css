@@ -1,3 +1,7 @@
+body {
+    background-color: red;
+}
+
 @font-face {
     font-family: 'Stem-regular';
     src: url('/src/fonts/stem-new/Stem-regular/Stem-regular.woff2') format('woff2'),

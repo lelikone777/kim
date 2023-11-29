@@ -1,7 +1,7 @@
-export const academy = document.createElement('section')
-academy.classList.add('academy', 'section')
+export const newHobby = document.createElement('section')
+newHobby.classList.add('newHobby', 'section')
 
-academy.innerHTML = `
+newHobby.innerHTML = `
 
 <div class='academy__wrapper relative max-w-screen-2xl m-auto'>
 
@@ -17,7 +17,8 @@ academy.innerHTML = `
     </div>    
     
     <div class='academy__image h-[80vw] md:w-[42vw] md:h-[324px] lg:h-[480px] xl:w-[582px] xl:h-[35.2vw] 2xl:max-w-[772px] 2xl:max-h-[640px]  overflow-hidden relative md:flex-1 xl:flex-[2.14]'>
-      <img src='/img/images/academy/academy-2xl.jpg' alt='academy image' class='absolute md:relative left-0 md:left-auto right-0 md:right-auto md:w-[121%] md:max-w-none xl:w-full'>
+      <img src='/img/images/main-page/want-2xl.jpg' alt='academy image' class='absolute md:relative left-0 md:left-auto right-0 md:right-auto md:w-[121%] md:max-w-none xl:w-full'>
+<!--      <img src='/img/images/academy/academy-2xl.jpg' alt='academy image' class='absolute md:relative left-0 md:left-auto right-0 md:right-auto md:w-[121%] md:max-w-none xl:w-full'>-->
     </div>
     
     <div class='academy__info flex flex-col gap-y-5 px-5 md:px-0 md:flex-1 text-[14px] leading-[160%] tracking-[0.42px] xl:text-[16px] xl:bg-light xl:py-[20px] 2xl:py-[36px]'>

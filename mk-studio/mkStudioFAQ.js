@@ -1,7 +1,7 @@
-export const academyFaq = document.createElement('section')
-academyFaq.classList.add('newHobby-faq', 'section')
+export const mkStudioFAQ = document.createElement('section')
+mkStudioFAQ.classList.add('mk-studio__faq', 'section')
 
-academyFaq.innerHTML = `
+mkStudioFAQ.innerHTML = `
   
 <div class='wrapper px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl m-auto text-black'>
 

@@ -1,0 +1,30 @@
+export const mkStudioTrainSupport = document.createElement('section')
+mkStudioTrainSupport.classList.add('mk-studio__support', 'section')
+
+mkStudioTrainSupport.innerHTML = `
+ 
+ <div class='wrapper relative grid grid-cols-1 grid-flow-row-dense md:grid-cols-2 my-5 ml-auto mr-auto px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl gap-y-[14px] md:gap-y-5 md:gap-x-10 xl:gap-x-[146px]'>
+ 
+    <div class='frame absolute hidden xl:block border border-semi-grey left-20 top-10 bottom-10 w-2/3 -z-10 xl:bottom-[103px] xl:top-[40px] 2xl:top-[72px] 2xl:bottom-[181px] 2xl:left-[120px]'></div>
+ 
+    <div class='principles__title text-26-300 col-span-1 md:col-start-1 md:row-start-1 md:place-self-end w-full xl:text-left xl:pl-[104px] xl:pr-[80px] 2xl:pl-[120px]'> 
+      <div class=''>
+        <h2 class='uppercase'>Мы заботимся о вашем комфорте</h2>
+      </div>
+    </div>
+    
+    <div class='info col-span-1 md:col-start-1 md:row-start-2 xl:text-left xl:pl-[104px] xl:pr-[200px] 2xl:pl-[120px]'>
+      <p class='text-14-300'>Чтобы погружение в творчество было максимально приятным и продуктивным!</p>
+    </div>
+    
+    <div class='poster flex flex-col gap-y-[14px] col-span-1 md:row-start-1 md:row-end-3'>
+      <div class='img '>
+        <img src='/img/images/mk-studio/support-2xl.jpg' alt='train'>
+      </div>
+    </div>
+    
+    
+    
+ </div> 
+  
+`

@@ -6,6 +6,13 @@ import { mkStudioTitle } from './mkStudioTitle.js'
 import { mkStudioProfile } from './mkStudioProfile.js'
 import { mkStudioWhom } from './mkStudioWhom.js'
 import { mkStudioTrain } from './mkStudioTrain.js'
+import { mkStudioStartTraining } from './mkStudioStartTraining.js'
+import { mkStudioTrainSupport } from './mkStudioTrainSupport.js'
+import { mkStudioAdvantages } from './mkStudioAdvantages.js'
+import { mkStudioAfterTraining } from './mkStudioAfterTraining.js'
+import { mkStudioReviews } from './mkStudioReviews.js'
+import { mkStudioFAQ } from './mkStudioFAQ.js'
+import { mkStudioQuestions } from './mkStudioQuestions.js'
 
 const mkStudio = document.querySelector('#mk-studio')
 
@@ -14,4 +21,11 @@ mkStudio.append(mkStudioTitle)
 mkStudio.append(mkStudioProfile)
 mkStudio.append(mkStudioWhom)
 mkStudio.append(mkStudioTrain)
+mkStudio.append(mkStudioStartTraining)
+mkStudio.append(mkStudioTrainSupport)
+mkStudio.append(mkStudioAdvantages)
+mkStudio.append(mkStudioAfterTraining)
+mkStudio.append(mkStudioReviews)
+mkStudio.append(mkStudioFAQ)
+mkStudio.append(mkStudioQuestions)
 mkStudio.append(mainFooter)

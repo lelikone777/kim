@@ -1,16 +1,12 @@
 import '/src/css/fonts.css'
 import '/src/css/global.css'
-import { mainHeader } from '/src/components/header/header.js'
-import { main } from '/mainPage/main.js'
-import { mainFooter } from '/src/components/footer/footer.js'
+import { mainPage } from '/mainPage/mainPage.js'
 import { headerDropdown } from './src/components/header/header-dropdown.js'
 import { headerMobile } from './src/components/header/header-mobile.js'
 
 const app = document.querySelector('#app')
 
-app.append(mainHeader)
-app.append(main)
-app.append(mainFooter)
+app.append(mainPage)
 
 // Добавляем выпадающее меню при наведении мыши на пункты меню на десктоп версии
 const headerNavItems = document.querySelectorAll('.header__nav-item')

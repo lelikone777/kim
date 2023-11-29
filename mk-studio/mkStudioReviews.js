@@ -1,14 +1,14 @@
-export const academyReviews = document.createElement('section')
-academyReviews.classList.add('newHobby-reviews', 'section')
+export const mkStudioReviews = document.createElement('section')
+mkStudioReviews.classList.add('mk-studio__reviews', 'section')
 
-academyReviews.innerHTML = `
+mkStudioReviews.innerHTML = `
   
   
   <div class='wrapper px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl m-auto '>
   
     <div class='principles__title text-26-300 text-left '>
       <div class='m-auto md:px-0'>
-        <h2 class='uppercase'>ОТзывы наших учеников</h2>
+        <h2 class='uppercase'>Отзывы наших учеников</h2>
       </div>
     </div> 
   </div>

@@ -1,5 +1,5 @@
 export const academyYoutube = document.createElement('section')
-academyYoutube.classList.add('academy-youtube', 'section')
+academyYoutube.classList.add('newHobby-youtube', 'section')
 
 academyYoutube.innerHTML = `
  

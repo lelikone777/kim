@@ -1,5 +1,5 @@
 export const academyNeeds = document.createElement('section')
-academyNeeds.classList.add('academy-needs', 'section')
+academyNeeds.classList.add('newHobby-needs', 'section')
 
 academyNeeds.innerHTML = `
   

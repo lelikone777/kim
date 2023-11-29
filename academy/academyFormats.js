@@ -1,5 +1,5 @@
 export const academyFormats = document.createElement('section')
-academyFormats.classList.add('academy-formats', 'section')
+academyFormats.classList.add('newHobby-formats', 'section')
 
 academyFormats.innerHTML = `
   
