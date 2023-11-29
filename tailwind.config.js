@@ -12,6 +12,7 @@ export default {
     './newHobby/*.{html,js,ts,jsx,tsx}',
     './study-studio/*.{html,js,ts,jsx,tsx}',
     './mk-studio/*.{html,js,ts,jsx,tsx}',
+    './online-learn/*.{html,js,ts,jsx,tsx}',
     './cart/*.{html,js,ts,jsx,tsx}',
     './modals/*.{html,js,ts,jsx,tsx}',
     './order/*.{html,js,ts,jsx,tsx}',

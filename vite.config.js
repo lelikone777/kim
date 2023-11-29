@@ -15,6 +15,7 @@ export default defineConfig({
         academy: resolve(__dirname, 'academy/index.html'),
         'study-studio': resolve(__dirname, 'study-studio/index.html'),
         'mk-studio': resolve(__dirname, 'mk-studio/index.html'),
+        'online-learn': resolve(__dirname, 'online-learn/index.html'),
 
         modals: resolve(__dirname, 'modals/index.html'),
         cart: resolve(__dirname, 'cart/index.html'),
