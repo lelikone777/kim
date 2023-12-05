@@ -14,6 +14,7 @@ export default {
     './mk-studio/*.{html,js,ts,jsx,tsx}',
     './online-learn/*.{html,js,ts,jsx,tsx}',
     './mk-online/*.{html,js,ts,jsx,tsx}',
+    './individual-learning/*.{html,js,ts,jsx,tsx}',
     './cart/*.{html,js,ts,jsx,tsx}',
     './modals/*.{html,js,ts,jsx,tsx}',
     './order/*.{html,js,ts,jsx,tsx}',
@@ -49,6 +50,14 @@ export default {
       backgroundImage: {
         'hero-main-page': "url('/img/images/hero-main-page.jpg')",
         'order-map': "url('/img/images/order/order-map-2xl.jpg')",
+        'hero-secondary-sm':
+          "url('/img/images/header-secondary/header-secondary-sm-hero.jpg')",
+        'hero-secondary-md':
+          "url('/img/images/header-secondary/header-secondary-md-hero.jpg')",
+        'hero-secondary-xl':
+          "url('/img/images/header-secondary/header-secondary-2xl-hero.jpg')",
+        'hero-secondary-2xl':
+          "url('/img/images/header-secondary/header-secondary-2xl-hero.jpg')",
       },
       boxShadow: {},
       screens: {

@@ -17,6 +17,10 @@ export default defineConfig({
         'mk-studio': resolve(__dirname, 'mk-studio/index.html'),
         'online-learn': resolve(__dirname, 'online-learn/index.html'),
         'mk-online': resolve(__dirname, 'mk-online/index.html'),
+        'individual-learning': resolve(
+          __dirname,
+          'individual-learning/index.html',
+        ),
 
         modals: resolve(__dirname, 'modals/index.html'),
         cart: resolve(__dirname, 'cart/index.html'),

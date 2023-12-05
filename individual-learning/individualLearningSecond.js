@@ -1,22 +1,17 @@
-export const signature = document.createElement('section')
-signature.classList.add('signature')
+export const individualLearningSecond = document.createElement('section')
+individualLearningSecond.classList.add('individual-learning__second', 'section')
 
-signature.innerHTML = `
-<div class='signature__wrapper relative flex justify-end lg:justify-between gap-x-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl my-8 md:my-20 xl:my-[102px] 2xl:my-[160px] m-auto'>
+individualLearningSecond.innerHTML = `
+  <div class='signature__wrapper relative flex justify-end lg:justify-between gap-x-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl my-8 md:my-20 xl:my-[102px] 2xl:my-[160px] m-auto'>
   <div
     class='signature__frame hidden md:flex absolute border border-semi-grey bottom-0 top-0 left-0 right-0 md:left-10 md:right-10 xl:left-20 xl:right-20 2xl:left-[120px] 2xl:right-[120px]'></div>
   <div class='signature__info flex flex-col justify-between py-5 md:pb-10 lg:py-10 2xl:py-20 md:pr-10 pl-5 lg:pl-10 2xl:pl-20'>
     <div class='signature__text text-right lg:text-left max-w-[295px]'>
       <p class='font-stem-extra-light-italic text-[14px] md:text-[18px] 2xl:text-[24px] leading-[143%] tracking-[0.4px] md:leading-[155%] md:tracking-[0.6px] 2xl:tracking-[0.72px]'>
-        Помогаю людям через искусство раскрываться в пространствах, в
-        которых они живут и работают
+        Вот уже более семи лет я веду МК и с уверенность могу сказать, что я первый, кто заявил о таком формате - 3-5 дней. Изначально упор стоял на техниках нанесения...
       </p>
     </div>
     <div class='signature__tag text-right lg:text-left text-marianna'>
-      <p>
-        Леонид <br />
-        Ким
-      </p>
     </div>
   </div>
   <div class='signature__images flex'>
@@ -35,7 +30,7 @@ signature.innerHTML = `
       <img
         src='/img/icons/quotes-logo.svg'
         alt='quotes logo'
-        class='absolute w-[42px] h-[36px] md:h-[48px] md:w-[56px] bottom-[33%] md:bottom-[58%] left-[-23px] md:left-[-11px] lg:left-[-31px] 2xl:left-[-40px] 2xl:w-[74px] 2xl:h-[64px]'
+        class='absolute w-[42px] h-[36px] md:h-[48px] md:w-[56px] bottom-0 md:bottom-[58%] left-[-23px] md:left-[-11px] lg:left-[-31px] 2xl:left-[-40px] 2xl:w-[74px] 2xl:h-[64px]'
       />
     </div>
     <div
@@ -48,5 +43,4 @@ signature.innerHTML = `
     </div>
   </div>
 </div>
-  
- `
+`

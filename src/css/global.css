@@ -132,8 +132,6 @@ img {
         @apply font-stem-light text-[24px] 2xl:text-[36px] leading-[130%] 2xl:leading-[125%] tracking-[0.4px] 2xl:tracking-[0.72px]
     }
 
-
-
     .text-26-300 {
         @apply font-stem-light text-[26px] 2xl:text-[40px] leading-[140%] 2xl:leading-[135%] tracking-[0.52px] 2xl:tracking-[0.8px]
     }
@@ -148,6 +146,10 @@ img {
 
     .text-marianna {
         @apply font-marianna text-[36px] md:text-[48px] 2xl:text-[64px] leading-[90%]
+    }
+
+    .text-marianna-40 {
+        @apply font-marianna text-[40px] font-normal 2xl:text-[64px]
     }
 
     .tabs-button-active {
