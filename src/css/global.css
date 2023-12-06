@@ -124,6 +124,10 @@ img {
         @apply font-stem-light text-[16px] 2xl:text-[20px] font-normal leading-[150%] 2xl:leading-[140%] tracking-[0.48px] 2xl:tracking-[0.6px]
     }
 
+    .text-16-32-400-300 {
+        @apply font-stem-light text-[16px] 2xl:text-[32px] font-normal leading-[150%] 2xl:leading-[125%] tracking-[0.48px] 2xl:tracking-[0.6px]
+    }
+
     .text-20-300 {
         @apply font-stem-light text-[20px] 2xl:text-[32px] leading-[130%] 2xl:leading-[125%] tracking-[0.4px] 2xl:tracking-[0.64px]
     }

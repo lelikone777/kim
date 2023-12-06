@@ -26,7 +26,9 @@ leonidLearn.innerHTML = `
         <div class='info flex flex-col justify-center p-5 md:p-10 bg-lighter-grey h-full xl:py-10 2xl:pr-20 gap-y-4 md:gap-y-5  '>
           <h3 class='text-24-300'>Личное наставничество</h3>
           
-          <p class='text-14-300 text-black'>Для тех, кто привык получать все внимание. Индивидуальное обучение под руководством Леонида Кима. Ускоренный прогресс и максимальный комфорт.</p>
+          <p class='text-14-300 text-black'>
+            Для тех, кто привык получать все внимание. Индивидуальное обучение под руководством Леонида Кима. Ускоренный прогресс и максимальный комфорт.
+          </p>
           
           <button class='shop__button flex justify-start items-center pr-6'>
             <span class='mr-2 text-button-primary text-primary !font-bold uppercase'>подробнее</span>
@@ -36,6 +38,7 @@ leonidLearn.innerHTML = `
           </button>
           
         </div>
+        
       </div>
       
     </div>
