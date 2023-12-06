@@ -13,10 +13,13 @@ export default defineConfig({
         exclusive: resolve(__dirname, 'exclusive/index.html'),
         project: resolve(__dirname, 'project/index.html'),
         academy: resolve(__dirname, 'academy/index.html'),
+        team: resolve(__dirname, 'team/index.html'),
+        leonid: resolve(__dirname, 'leonid/index.html'),
         'study-studio': resolve(__dirname, 'study-studio/index.html'),
         'mk-studio': resolve(__dirname, 'mk-studio/index.html'),
         'online-learn': resolve(__dirname, 'online-learn/index.html'),
         'mk-online': resolve(__dirname, 'mk-online/index.html'),
+        'about-studio': resolve(__dirname, 'about-studio/index.html'),
         'individual-learning': resolve(
           __dirname,
           'individual-learning/index.html',

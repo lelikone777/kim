@@ -101,7 +101,7 @@ img {
     }
 
     .text-14-300 {
-        @apply font-stem-light text-[14px] 2xl:text-[16px] font-light leading-[160%] 2xl:leading-[150%] tracking-[0.42px] 2xl:tracking-[0.48px]
+        @apply font-stem-light text-[14px] 2xl:text-[16px] font-light leading-[160%] 2xl:leading-[160%] tracking-[0.42px] 2xl:tracking-[0.48px]
     }
 
     .text-14-20-300 {
@@ -114,6 +114,10 @@ img {
 
     .text-button-primary {
         @apply font-stem-regular text-[14px] 2xl:text-[16px] font-normal leading-normal 2xl:leading-[150%] tracking-[2.1px] 2xl:tracking-[2.4px] uppercase
+    }
+
+    .text-14-20-300 {
+        @apply font-stem-light text-[14px] 2xl:text-[20px] font-light leading-[160%]  tracking-[0.42px] 2xl:tracking-[0.6px]
     }
 
     .text-16-400 {

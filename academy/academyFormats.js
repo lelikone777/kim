@@ -4,7 +4,7 @@ academyFormats.classList.add('newHobby-formats', 'section')
 academyFormats.innerHTML = `
   
   
-  <div class='academy-formats__wrapper flex flex-col m-auto gap-y-5 2xl:gap-y-10 xl:gap-x-[42px] 2xl:gap-x-[48px] px-5 md:px10 xl:px-20 2xl:px-[120px] max-w-screen-2xl'>
+  <div class='academy-formats__wrapper flex flex-col m-auto gap-y-5 2xl:gap-y-10 xl:gap-x-[42px] 2xl:gap-x-[48px] px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl'>
    
     <div class='section-title flex flex-col gap-y-2'>
       <h2 class='text-26-300 uppercase'>Мы работаем в 3 форматах обучения </h2>    

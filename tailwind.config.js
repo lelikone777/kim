@@ -15,6 +15,9 @@ export default {
     './online-learn/*.{html,js,ts,jsx,tsx}',
     './mk-online/*.{html,js,ts,jsx,tsx}',
     './individual-learning/*.{html,js,ts,jsx,tsx}',
+    './about-studio/*.{html,js,ts,jsx,tsx}',
+    './leonid/*.{html,js,ts,jsx,tsx}',
+    './team/*.{html,js,ts,jsx,tsx}',
     './cart/*.{html,js,ts,jsx,tsx}',
     './modals/*.{html,js,ts,jsx,tsx}',
     './order/*.{html,js,ts,jsx,tsx}',
@@ -58,6 +61,7 @@ export default {
           "url('/img/images/header-secondary/header-secondary-2xl-hero.jpg')",
         'hero-secondary-2xl':
           "url('/img/images/header-secondary/header-secondary-2xl-hero.jpg')",
+        'hero-team-2xl': "url('/img/images/team/team-hero.jpg')",
       },
       boxShadow: {},
       screens: {

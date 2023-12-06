@@ -1,11 +1,11 @@
-export const projectSlider = document.createElement('section')
-projectSlider.classList.add('project-slider', 'section')
+export const leonidRecommend = document.createElement('section')
+leonidRecommend.classList.add('leonid__recommend', 'section')
 
-projectSlider.innerHTML = `
+leonidRecommend.innerHTML = `
   
   <div class='projects__wrapper relative flex flex-col gap-y-5 xl:gap-y-10 mb-14 md:mb-20 xl:mb-[104px] 2xl:mb-[160px] max-w-screen-2xl m-auto'>
   <div class='projects__title flex flex-col gap-y-3 px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-[714px] 2xl:max-w-[1150px] items-start text-left w-full'>
-    <h2 class='inline-block text-24-300 uppercase'>Рекомендуем обратить внимание на эти работы</h2>
+    <h2 class='inline-block text-24-300 uppercase'>Работы леонида</h2>
   </div>
 
   <div class='projects__box flex flex-col gap-y-5 pl-5 md:pl-10 xl:pl-20 2xl:pl-[120px] 2xl:pr-0 max-w-screen-2xl'>
@@ -235,7 +235,7 @@ projectSlider.innerHTML = `
     </div>
 
     <button class='projects__button flex justify-center items-center px-6 py-[18px] 2xl:py-[18px] border border-primary lg:order-1'>
-      <span class='mr-2 text-[14px] 2xl:text-[16px] tracking-[2.1px] 2xl:tracking-[2.4px] font-bold uppercase'>все работы</span>
+      <span class='mr-2 text-button-primary !font-bold uppercase'>все работы</span>
       <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
         <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
       </svg>
