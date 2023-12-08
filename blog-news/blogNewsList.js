@@ -195,7 +195,6 @@ blogNewsList.innerHTML = `
               </svg>
               <span class='text-light-grey ml-2'>124</span>
             </div>
-            
           </div>
           
         </div>

@@ -15,6 +15,8 @@ export default defineConfig({
         academy: resolve(__dirname, 'academy/index.html'),
         team: resolve(__dirname, 'team/index.html'),
         leonid: resolve(__dirname, 'leonid/index.html'),
+        faq: resolve(__dirname, 'leonid/index.html'),
+        'article-news': resolve(__dirname, 'article-news/index.html'),
         'blog-news': resolve(__dirname, 'blog-news/index.html'),
         'individual-order': resolve(__dirname, 'individual-order/index.html'),
         'study-studio': resolve(__dirname, 'study-studio/index.html'),
