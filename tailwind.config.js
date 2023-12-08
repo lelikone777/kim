@@ -19,6 +19,7 @@ export default {
     './individual-order/*.{html,js,ts,jsx,tsx}',
     './about-studio/*.{html,js,ts,jsx,tsx}',
     './leonid/*.{html,js,ts,jsx,tsx}',
+    './contacts/*.{html,js,ts,jsx,tsx}',
     './team/*.{html,js,ts,jsx,tsx}',
     './blog-news/*.{html,js,ts,jsx,tsx}',
     './faq/*.{html,js,ts,jsx,tsx}',
