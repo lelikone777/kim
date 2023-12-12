@@ -17,10 +17,10 @@ faqNewsRecommendSlider.innerHTML = `
           
           
           <div class='projects__slide flex flex-col gap-y-5 2xl:gap-y-8'>
-            <div
+            <a href='#'
               class='projects__slide-image w-[300px] h-[400px] xl:w-[374px] xl:h-[480px] 2xl:w-[528px] 2xl:h-[720px] overflow-hidden'>
               <img src='/img/images/article-news/bottom-1.jpg' alt='project 1' class=''/>
-            </div>
+            </a>
             <div class='info flex flex-col gap-y-3 2xl:gap-y-5'>
             
               <div class='top'>
@@ -82,10 +82,10 @@ faqNewsRecommendSlider.innerHTML = `
           </div>
 
           <div class='projects__slide flex flex-col gap-y-5 2xl:gap-y-8'>
-            <div
+            <a href='#'
               class='projects__slide-image w-[300px] h-[400px] xl:w-[374px] xl:h-[480px] 2xl:w-[528px] 2xl:h-[720px] overflow-hidden'>
               <img src='/img/images/article-news/bottom-1.jpg' alt='project 1' class=''/>
-            </div>
+            </a>
             <div class='info flex flex-col gap-y-3 2xl:gap-y-5'>
             
               <div class='top'>
@@ -147,10 +147,10 @@ faqNewsRecommendSlider.innerHTML = `
           </div>
 
           <div class='projects__slide flex flex-col gap-y-5 2xl:gap-y-8'>
-            <div
+            <a href='#'
               class='projects__slide-image w-[300px] h-[400px] xl:w-[374px] xl:h-[480px] 2xl:w-[528px] 2xl:h-[720px] overflow-hidden'>
               <img src='/img/images/article-news/bottom-1.jpg' alt='project 1' class=''/>
-            </div>
+            </a>
             <div class='info flex flex-col gap-y-3 2xl:gap-y-5'>
             
               <div class='top'>
@@ -212,10 +212,10 @@ faqNewsRecommendSlider.innerHTML = `
           </div>
 
           <div class='projects__slide flex flex-col gap-y-5 2xl:gap-y-8'>
-            <div
+            <a href='#'
               class='projects__slide-image w-[300px] h-[400px] xl:w-[374px] xl:h-[480px] 2xl:w-[528px] 2xl:h-[720px] overflow-hidden'>
               <img src='/img/images/article-news/bottom-1.jpg' alt='project 1' class=''/>
-            </div>
+            </a>
             <div class='info flex flex-col gap-y-3 2xl:gap-y-5'>
             
               <div class='top'>
@@ -277,10 +277,10 @@ faqNewsRecommendSlider.innerHTML = `
           </div>
 
           <div class='projects__slide flex flex-col gap-y-5 2xl:gap-y-8'>
-            <div
+            <a href='#'
               class='projects__slide-image w-[300px] h-[400px] xl:w-[374px] xl:h-[480px] 2xl:w-[528px] 2xl:h-[720px] overflow-hidden'>
               <img src='/img/images/article-news/bottom-1.jpg' alt='project 1' class=''/>
-            </div>
+            </a>
             <div class='info flex flex-col gap-y-3 2xl:gap-y-5'>
             
               <div class='top'>
@@ -367,8 +367,8 @@ faqNewsRecommendSlider.innerHTML = `
       </button>
     </div>
 
-    <button class='projects__button flex justify-center items-center px-6 py-[18px] 2xl:py-[18px] border border-primary lg:order-1'>
-      <span class='mr-2 text-button-primary !font-bold uppercase'>смотреть все (17)</span>
+    <button class='projects__button flex justify-center items-center px-6 py-[18px] 2xl:py-[18px] border border-primary lg:order-1 hover:hover-text hover:hover-border'>
+      <span class='mr-2 text-button-primary !font-bold uppercase hover:hover-text'>смотреть все (17)</span>
       <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
         <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
       </svg>

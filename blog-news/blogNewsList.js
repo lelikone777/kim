@@ -1,15 +1,15 @@
 export const blogNewsList = document.createElement('section')
-blogNewsList.classList.add('blog-news__list', 'section')
+blogNewsList.classList.add('blog-news__list')
 
 blogNewsList.innerHTML = `
   
-  <div class='wrapper px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl m-auto'>
+  <div class='wrapper px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl m-auto mt-10 md:mt-[64px] xl:mt-20 2xl:mt-[120px]'>
     <div class='list grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-10 md:gap-y-[64px] xl:gap-y-[80px] 2xl:gap-y-[120px] gap-x-5 xl:gap-x-[42px] 2xl:gap-x-[48px] grid-flow-row-dense [&>div]:col-span-1'>
     
       <div class='card flex flex-col gap-y-5 2xl:gap-y-7'>
-        <div class='img'>
+        <a href='#' class='img'>
           <img src='/img/images/blog-news/card-2xl-1.jpg' alt='1'>
-        </div>
+        </a>
         <div class='info flex flex-col gap-y-3 2xl:gap-y-5'>
         
           <div class='top'>
@@ -19,10 +19,10 @@ blogNewsList.innerHTML = `
             </div>
             
             <button
-              class='projects__slide-title flex items-center text-left w-fit'>
+              class='projects__slide-title flex items-center text-left w-fit hover:hover-text'>
               <h5
                 class='text-button-primary uppercase'>
-                <span>Название статьи</span>
+                <span class='hover:hover-text'>Название статьи</span>
               </h5>
               <div class='flex justify-between items-center ml-2'>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
@@ -72,9 +72,9 @@ blogNewsList.innerHTML = `
       </div>
       
       <div class='card flex flex-col gap-y-5 2xl:gap-y-7'>
-        <div class='img'>
+        <a href='#' class='img'>
           <img src='/img/images/blog-news/card-2xl-2.jpg' alt='1'>
-        </div>
+        </a>
         <div class='info flex flex-col gap-y-3 2xl:gap-y-5'>
         
           <div class='top'>
@@ -84,10 +84,10 @@ blogNewsList.innerHTML = `
             </div>
             
             <button
-              class='projects__slide-title flex items-center text-left w-fit'>
+              class='projects__slide-title flex items-center text-left w-fit hover:hover-text'>
               <h5
                 class='text-button-primary uppercase'>
-                <span>очень длинное Название статьи на две строчки</span>
+                <span class='hover:hover-text'>очень длинное Название статьи на две строчки</span>
               </h5>
               <div class='flex justify-between items-center ml-2'>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
@@ -137,9 +137,9 @@ blogNewsList.innerHTML = `
       </div>
       
       <div class='card flex flex-col gap-y-5 2xl:gap-y-7'>
-        <div class='img'>
+        <a href='#' class='img'>
           <img src='/img/images/blog-news/card-2xl-3.jpg' alt='1'>
-        </div>
+        </a>
         <div class='info flex flex-col gap-y-3 2xl:gap-y-5'>
         
           <div class='top'>
@@ -149,10 +149,10 @@ blogNewsList.innerHTML = `
             </div>
             
             <button
-              class='projects__slide-title flex items-center text-left w-fit'>
+              class='projects__slide-title flex items-center text-left w-fit hover:hover-text'>
               <h5
                 class='text-button-primary uppercase'>
-                <span>очень длинное Название статьи на две строчки</span>
+                <span class='hover:hover-text'>очень длинное Название статьи на две строчки</span>
               </h5>
               <div class='flex justify-between items-center ml-2'>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
@@ -201,9 +201,9 @@ blogNewsList.innerHTML = `
       </div>
       
       <div class='card flex flex-col gap-y-5 2xl:gap-y-7'>
-        <div class='img'>
+        <a href='#' class='img'>
           <img src='/img/images/blog-news/card-2xl-4.jpg' alt='1'>
-        </div>
+        </a>
         <div class='info flex flex-col gap-y-3 2xl:gap-y-5'>
         
           <div class='top'>
@@ -213,10 +213,10 @@ blogNewsList.innerHTML = `
             </div>
             
             <button
-              class='projects__slide-title flex items-center text-left w-fit'>
+              class='projects__slide-title flex items-center text-left w-fit hover:hover-text'>
               <h5
                 class='text-button-primary uppercase'>
-                <span>Название статьи</span>
+                <span class='hover:hover-text'>Название статьи</span>
               </h5>
               <div class='flex justify-between items-center ml-2'>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
@@ -266,9 +266,9 @@ blogNewsList.innerHTML = `
       </div>
       
       <div class='card flex flex-col gap-y-5 2xl:gap-y-7'>
-        <div class='img'>
+        <a href='#' class='img'>
           <img src='/img/images/blog-news/card-2xl-5.jpg' alt='1'>
-        </div>
+        </a>
         <div class='info flex flex-col gap-y-3 2xl:gap-y-5'>
         
           <div class='top'>
@@ -278,10 +278,10 @@ blogNewsList.innerHTML = `
             </div>
             
             <button
-              class='projects__slide-title flex items-center text-left w-fit'>
+              class='projects__slide-title flex items-center text-left w-fit hover:hover-text'>
               <h5
                 class='text-button-primary uppercase'>
-                <span>Название статьи</span>
+                <span class='hover:hover-text'>Название статьи</span>
               </h5>
               <div class='flex justify-between items-center ml-2'>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
@@ -331,9 +331,9 @@ blogNewsList.innerHTML = `
       </div>
       
       <div class='card flex flex-col gap-y-5 2xl:gap-y-7'>
-        <div class='img'>
+        <a href='#' class='img'>
           <img src='/img/images/blog-news/card-2xl-1.jpg' alt='1'>
-        </div>
+        </a>
         <div class='info flex flex-col gap-y-3 2xl:gap-y-5'>
         
           <div class='top'>
@@ -343,10 +343,10 @@ blogNewsList.innerHTML = `
             </div>
             
             <button
-              class='projects__slide-title flex items-center text-left w-fit'>
+              class='projects__slide-title flex items-center text-left w-fit hover:hover-text'>
               <h5
                 class='text-button-primary uppercase'>
-                <span>Название статьи</span>
+                <span class='hover:hover-text'>Название статьи</span>
               </h5>
               <div class='flex justify-between items-center ml-2'>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
@@ -396,8 +396,8 @@ blogNewsList.innerHTML = `
       </div>
     </div>
     
-    <button class='footer__button flex-center flex-1 md:flex-1 md:order-1 w-full xl:w-fit m-auto xl:justify-center my-10 md:my-[64px] xl:my-20 2xl:my-[120px]'>
-      <span class='w-full min-w-[220px] flex justify-center items-center xl:w-fit text-button-primary bg-primary text-light px-5 py-4'>
+    <button class='footer__button flex-center flex-1 md:flex-1 md:order-1 w-full xl:w-fit m-auto xl:justify-center my-10 md:my-[64px] xl:my-20 2xl:my-[120px] hover:hover-bg'>
+      <span class='w-full min-w-[220px] flex justify-center items-center xl:w-fit text-button-primary bg-primary text-light px-5 py-4 hover:hover-bg'>
         показать ещё
       </span>
     </button>

@@ -6,7 +6,7 @@ individualLearningSeventh.classList.add(
 
 individualLearningSeventh.innerHTML = `
 
-<div class='principles__wrapper flex flex-col gap-y-5 pl-0 pr-0 pb-5 md:pb-10 xl:p-20 w-full m-auto px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl'>
+<div class='principles__wrapper flex flex-col gap-y-5 pl-0 pr-0 pb-5 md:pb-10 xl:p-20 w-full m-auto px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl !py-0'>
     <div class='principles__title text-26-300 text-left '>
       <div class='m-auto px-5 md:px-0'>
         <h2 class='uppercase'>Нас ждут</h2>

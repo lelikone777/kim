@@ -14,6 +14,7 @@ import { mkOnlineReviews } from './mkOnlineReviews.js'
 import { mkOnlineFAQ } from './mkOnlineFAQ.js'
 import { mkOnlineRecommend } from './mkOnlineRecommend.js'
 import { mkOnlineContact } from './mkOnlineContact.js'
+import { mkOnlineContacts2 } from './mkOnlineContacts2.js'
 
 const mkOnline = document.querySelector('#mk-online')
 
@@ -29,5 +30,6 @@ mkOnline.append(mkOnlineAfter)
 mkOnline.append(mkOnlineReviews)
 mkOnline.append(mkOnlineFAQ)
 mkOnline.append(mkOnlineRecommend)
-mkOnline.append(mkOnlineContact)
+mkOnline.append(mkOnlineContacts2)
+// mkOnline.append(mkOnlineContact)
 mkOnline.append(mainFooter)
