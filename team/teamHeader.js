@@ -108,21 +108,43 @@ teamHeader.innerHTML = `
 
         <div class='header__title text-left px-5 pb-5 md:px-10 md:pb-10 xl:px-20 xl:pb-20 hero-bg-gradient-top hero-bg-gradient-bottom'>
           <div class='max-w-screen-2xl m-auto'>
-            <div class='h1-pagination'>
-              <ul class='text-14-300 !font-light flex flex-wrap gap-x-3'>
-                <li>
-                  Главная
-                </li>
-                <li class='light-grey'>
-                  Команда     
-                </li>
-              </ul>
+            <div class=''>
+              <div class='h1-pagination'>
+                <ul class='text-14-300 !font-light flex flex-wrap gap-x-3'>
+                  <li>
+                    Главная
+                  </li>
+                  <li class='light-grey'>
+                    Команда     
+                  </li>
+                </ul>
+              </div>
+              <h1 class='text-32-300 xl:flex xl:items-center xl:justify-between xl:w-full xl:gap-x-5 2xl:gap-x-10'>
+                <span>Команда</span>
+                
+                <div class='range hidden xl:flex xl:justify-between xl:gap-x-3 xl:w-full xl:items-center '>
+                  <button class='left-arr'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none">
+                      <path d="M1 7L9 13L9 1L1 7Z" stroke="white"/>
+                    </svg>
+                  </button>
+                  <div class='line h-[1px] w-full flex-1 bg-white xl:items-center flex relative'>
+                    <div class='w-1/4 max max-w-[580px] h-3 border border-light absolute left-1/4 -translate-x-1/2'></div>
+                  </div>
+                  <button class='right-arr'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none" class='rotate-180'>
+                      <path d="M1 7L9 13L9 1L1 7Z" stroke="white"/>
+                    </svg>
+                  </button>
+                </div>
+              </h1>
             </div>
-            <h1 class='text-32-300 xl:max-w-[520px] 2xl:max-w-[580px]'>
-              Команда
-            </h1>
+            
+            
           </div>
         </div>
+        
+        
       </div>
       
     </div>

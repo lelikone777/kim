@@ -18,16 +18,16 @@ others.innerHTML = `
             <img src='/img/images/shop/shop-image-2xl-1.jpg' alt='project 1' class='' />
           </div>
           <div class='shop__slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
-            <div class='shop__slide-title flex items-center justify-center w-fit'>
+            <button class='shop__slide-title flex items-center justify-center w-fit hover:hover-text'>
               <h5 class='text-[14px] 2xl:text-[16px] leading-normal tracking-[2.1px] uppercase font-bold'>
-                <span>L’AQUARIUM</span>
+                <span class='hover:hover-text'>L’AQUARIUM</span>
               </h5>
-              <button class='flex justify-between items-center ml-2'>
+              <span class='flex justify-between items-center ml-2'>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
                 </svg>
-              </button>
-            </div>
+              </span>
+            </button>
             <div class='shop__slide-data flex justify-start items-center gap-x-4'>
               <div class='shop__slide-size flex flex-col'>
                 <p class='text-light-grey text-[10px] 2xl:text-[14px] leading-[140%] tracking-[0.3px]'>
@@ -60,16 +60,16 @@ others.innerHTML = `
             <img src='/img/images/shop/shop-image-2xl-2.jpg' alt='project 1' class=''/>
           </div>
           <div class='shop__slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
-            <div class='shop__slide-title flex items-center justify-center w-fit'>
+            <button class='shop__slide-title flex items-center justify-center w-fit hover:hover-text'>
               <h5 class='text-[14px] 2xl:text-[16px] leading-normal tracking-[2.1px] uppercase font-bold'>
-                <span>Будда Шакьямуни</span>
+                <span class='hover:hover-text'>Будда Шакьямуни</span>
               </h5>
-              <button class='flex justify-between items-center ml-2'>
+              <span class='flex justify-between items-center ml-2'>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
                 </svg>
-              </button>
-            </div>
+              </span>
+            </button>
             <div class='shop__slide-data flex justify-start items-center gap-x-4'>
               <div class='shop__slide-size flex flex-col'>
                 <p class='text-light-grey text-[10px] 2xl:text-[14px] leading-[140%] tracking-[0.3px]'>
@@ -102,18 +102,18 @@ others.innerHTML = `
             <img src='/img/images/shop/shop-image-2xl-3.jpg' alt='project 1' class=''/>
           </div>
           <div class='shop__slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
-            <div
-              class='shop__slide-title flex items-center justify-center w-fit'>
+            <button
+              class='shop__slide-title flex items-center justify-center w-fit hover:hover-text'>
               <h5
                 class='text-[14px] 2xl:text-[16px] leading-normal tracking-[2.1px] uppercase font-bold'>
-                <span>Каллы триптих</span>
+                <span class='hover:hover-text'>Каллы триптих</span>
               </h5>
-              <button class='flex justify-between items-center ml-2'>
+              <span class='flex justify-between items-center ml-2'>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
                 </svg>
-              </button>
-            </div>
+              </span>
+            </button>
             <div class='shop__slide-data flex justify-start items-center gap-x-4'>
               <div class='shop__slide-size flex flex-col'>
                 <p class='text-light-grey text-[10px] 2xl:text-[14px] leading-[140%] tracking-[0.3px]'>
@@ -145,16 +145,16 @@ others.innerHTML = `
             <img src='/img/images/shop/shop-image-2xl-1.jpg' alt='project 1' />
           </div>
           <div class='shop__slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
-            <div class='shop__slide-title flex items-center justify-center w-fit' >
+            <button class='shop__slide-title flex items-center justify-center w-fit hover:hover-text' >
               <h5 class='text-[14px] 2xl:text-[16px] leading-normal tracking-[2.1px] uppercase font-bold'>
-                <span>L’AQUARIUM</span>
+                <span class='hover:hover-text'>L’AQUARIUM</span>
               </h5>
-              <button class='flex justify-between items-center ml-2'>
+              <span class='flex justify-between items-center ml-2'>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260' />
                 </svg>
-              </button>
-            </div>
+              </span>
+            </button>
             <div class='shop__slide-data flex justify-start items-center gap-x-4'>
               <div class='shop__slide-size flex flex-col'>
                 <p class='text-light-grey text-[10px] 2xl:text-[14px] leading-[140%] tracking-[0.3px]'>
@@ -186,16 +186,16 @@ others.innerHTML = `
             <img src='/img/images/shop/shop-image-2xl-2.jpg' alt='project 1' class=''/>
           </div>
           <div class='shop__slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
-            <div class='shop__slide-title flex items-center justify-center w-fit'>
+            <button class='shop__slide-title flex items-center justify-center w-fit'>
               <h5 class='text-[14px] 2xl:text-[16px] leading-normal tracking-[2.1px] uppercase font-bold'>
-                <span>Будда Шакьямуни</span>
+                <span class='hover:hover-text'>Будда Шакьямуни</span>
               </h5>
-              <button class='flex justify-between items-center ml-2'>
+              <span class='flex justify-between items-center ml-2'>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=' >
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
                 </svg>
-              </button>
-            </div>
+              </span>
+            </button>
             <div class='shop__slide-data flex justify-start items-center gap-x-4'>
               <div class='shop__slide-size flex flex-col'>
                 <p class='text-light-grey text-[10px] 2xl:text-[14px] leading-[140%] tracking-[0.3px]'>
@@ -255,8 +255,8 @@ others.innerHTML = `
     </button>
   </div>
 
-  <button class='shop__button flex justify-center items-center px-6 py-[18px] 2xl:py-[18px] border border-primary lg:order-1'>
-    <span class='mr-2 text-[14px] 2xl:text-[16px] tracking-[2.1px] 2xl:tracking-[2.4px] font-bold uppercase'>перейти в магазин</span>
+  <button class='shop__button flex justify-center items-center px-6 py-[18px] 2xl:py-[18px] border border-primary lg:order-1 hover:hover-border hover:hover-text'>
+    <span class='mr-2 text-[14px] 2xl:text-[16px] tracking-[2.1px] 2xl:tracking-[2.4px] font-bold uppercase '>смотреть все (17)</span>
     <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>
       <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260'/>
     </svg>

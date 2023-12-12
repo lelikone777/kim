@@ -1,7 +1,7 @@
-export const price = document.createElement('section')
-price.classList.add('price', 'section')
+export const onlineLearnPrice = document.createElement('section')
+onlineLearnPrice.classList.add('onlineLearnPrice', 'section')
 
-price.innerHTML = `
+onlineLearnPrice.innerHTML = `
 <div class='price__wrapper relative max-w-screen-2xl m-auto'>
   <div
     class='price__image absolute left-0 right-0 xl:right-auto z-10 top-3 md:top-5 2xl:top-1/2 2xl:translate-y-[-50%] h-[55vw] md:h-[46.878vw] xl:h-[619px] xl:w-[46vw] xl:top-1/2 xl:translate-y-[-50%] 2xl:h-[741px] 2xl:w-[936px] overflow-hidden'>
@@ -20,12 +20,11 @@ price.innerHTML = `
       <div class='flex flex-col gap-y-5 pt-2 md:gap-y-10 2xl:gap-y-16 xl:flex-1'>
       
             <div class='price__text flex flex-col gap-y-3 items-start text-left'>
-              <p class='inline-block text-[26px] 2xl:text-[40px] leading-[140%] tracking-[0.5px] 2xl:tracking-[0.8px] uppercase'>
-                Узнайте, сколько будет стоить
-                <span class='text-light-grey'>ваш уникальный<wbr /> <nobr>арт-объект</nobr></span>
-                <span class='mr-1'>на заказ</span>
-                <span
-                  class='relative ml-2 min-w-[122px] 2xl:min-w-[160px] inline-block bg-accent py-[2px] 2xl:py-[4px] px-2.5 text-light text-[10px] 2xl:text-[14px] leading-[140%] 2xl:leading-[160%] tracking-[0.3px] 2xl:tracking-[0.42px] normal-case before:absolute before:content-[&quot;&quot;] before:w-0 before:h-0 before:border-t-[22px] before:border-r-0 before:border-b-0 before:border-l-[5px] before:border-l-transparent before:border-solid before:border-accent before:top-0 before:left-[-4px] after:absolute after:content-[&quot;&quot;] after:w-0 after:h-0 after:border-b-[22px] after:border-r-0 after:border-t-0 after:border-l-[5px] after:border-l-transparent after:border-solid after:border-accent after:bottom-0 after:left-[-4px]'>Перезвоним вам <br /> в течение 10 минут
+             <p class='inline-block text-[26px] 2xl:text-[40px] leading-[140%] tracking-[0.5px] 2xl:tracking-[0.8px] uppercase'>
+                Не знаете какой мастер класс выбрать? 
+                  <span
+                    class='relative ml-2 min-w-[122px] 2xl:min-w-[160px] inline-block bg-accent py-[2px] 2xl:py-[4px] px-2.5 text-light text-[10px] 2xl:text-[14px] leading-[140%] 2xl:leading-[160%] tracking-[0.3px] 2xl:tracking-[0.42px] normal-case before:absolute before:content-[&quot;&quot;] before:w-0 before:h-0 before:border-t-[22px] before:border-r-0 before:border-b-0 before:border-l-[5px] before:border-l-transparent before:border-solid before:border-accent before:top-0 before:left-[-4px] after:absolute after:content-[&quot;&quot;] after:w-0 after:h-0 after:border-b-[22px] after:border-r-0 after:border-t-0 after:border-l-[5px] after:border-l-transparent after:border-solid after:border-accent after:bottom-0 after:left-[-4px]'>
+                    Перезвоним вам <br> в течении 10 минут
                   </span>
               </p>
               <p class='text-[14px] 2xl:text-[16px] leading-[160%] tracking-[0.4px]'>

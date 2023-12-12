@@ -9,34 +9,34 @@ studyStudioList.innerHTML = `
     <!--    1-->
     <div class='study-studio__list-item flex flex-col gap-y-4 col-span-1'>
         <div class='slide flex flex-col gap-y-5 2xl:gap-y-8'>
-        <div class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
-        <img src='/img/images/study-studio/list-2xl-1.jpg' alt='studio 1' class='absolute-center'/>
-        </div>
+          <a href='#' class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
+            <img src='/img/images/study-studio/list-2xl-1.jpg' alt='studio 1' class='absolute-center'/>
+          </a>
         <div class='slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
         
         <div class='slide-title flex items-center justify-center w-fit' >
-        <button class='flex items-center gap-x-2'>
-        <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold'>
-          <span>Мастер-класс "Крыло"</span>
-        </span>
-        <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
-          <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260' />
-        </svg>
-        </button>
+          <button class='flex items-center gap-x-2'>
+            <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold'>
+              <span class='hover:hover-text'>Мастер-класс "Крыло"</span>
+            </span>
+            <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
+              <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260' />
+            </svg>
+          </button>
         </div>
         
         <div class='slide-data grid grid-cols-2 gap-x-4 gap-y-3'>
         
         <div class='slide-size flex flex-col col-span-1'>
-        <p class='text-light-grey text-10-400'>Ближайший старт:</p>
-        <span class='text-14-300'>30 июля 2023</span>
+          <p class='text-light-grey text-10-400'>Ближайший старт:</p>
+          <span class='text-14-300'>30 июля 2023</span>
         </div>
         
         <div class='slide-color flex flex-col col-span-1 place-self-end'>
-        <p class='text-light-grey text-10-400'>
-          Длительность:
-        </p>
-        <span class='text-14-300'>2 дня по 6-7 часов</span>
+          <p class='text-light-grey text-10-400'>
+            Длительность:
+          </p>
+          <span class='text-14-300'>2 дня по 6-7 часов</span>
         </div>
         
         <div class='slide-delivery col-span-1'>
@@ -65,7 +65,7 @@ studyStudioList.innerHTML = `
         </div>
         </div>
         </div>
-      <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary uppercase text-primary hover:text-primary-dark !font-bold'>
+      <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary uppercase text-primary hover:text-primary-dark !font-bold hover:hover-text hover:hover-border'>
         <span>Добавить в корзину</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21" fill="none">
         <path d="M16.3331 19.1269C16.3331 19.8973 16.9385 20.4998 17.6585 20.4998C18.3784 20.4998 18.9839 19.8973 18.9839 19.1269C18.9839 18.3564 18.3784 17.7539 17.6585 17.7539C16.9385 17.7539 16.3331 18.3564 16.3331 19.1269Z" stroke="#78848F"/>
@@ -77,15 +77,15 @@ studyStudioList.innerHTML = `
     <!--    2-->
     <div class='study-studio__list-item flex flex-col gap-y-4 col-span-1'>
         <div class='slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
+          <a href='#' class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
             <img src='/img/images/study-studio/list-2xl-3.jpg' alt='studio 1' class='absolute-center'/>
-          </div>
+          </a>
           <div class='slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
           
             <div class='slide-title flex items-center justify-center w-fit' >
               <button class='flex items-center gap-x-2'>
-                <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold'>
-                  <span>Мастер-класс "Фламинго"</span>
+                <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold hover:hover-text'>
+                  <span class='hover:hover-text'>Мастер-класс "Фламинго"</span>
                 </span>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260' />
@@ -133,7 +133,7 @@ studyStudioList.innerHTML = `
             </div>
           </div>
         </div>
-        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary font-bold uppercase text-primary hover:text-primary-dark !font-bold'>
+        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary uppercase text-primary hover:text-primary-dark !font-bold hover:hover-text hover:hover-border'>
           <span>Добавить в корзину</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21" fill="none">
             <path d="M16.3331 19.1269C16.3331 19.8973 16.9385 20.4998 17.6585 20.4998C18.3784 20.4998 18.9839 19.8973 18.9839 19.1269C18.9839 18.3564 18.3784 17.7539 17.6585 17.7539C16.9385 17.7539 16.3331 18.3564 16.3331 19.1269Z" stroke="#78848F"/>
@@ -142,18 +142,20 @@ studyStudioList.innerHTML = `
           </svg>
         </button>
       </div>
+      
+      
     <!--    3-->
     <div class='study-studio__list-item flex flex-col gap-y-4 col-span-1'>
         <div class='slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
+          <a href='#' class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
             <img src='/img/images/study-studio/list-2xl-2.jpg' alt='studio 1' class='absolute-center'/>
-          </div>
+          </a>
           <div class='slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
           
             <div class='slide-title flex items-center justify-center w-fit' >
               <button class='flex items-center gap-x-2'>
-                <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold'>
-                  <span>Мастер-класс "Орхидея"</span>
+                <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold hover:hover-text'>
+                  <span class='hover:hover-text'>Мастер-класс "Орхидея"</span>
                 </span>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260' />
@@ -201,7 +203,7 @@ studyStudioList.innerHTML = `
             </div>
           </div>
         </div>
-        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary font-bold uppercase text-primary hover:text-primary-dark !font-bold'>
+        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary uppercase text-primary hover:text-primary-dark !font-bold hover:hover-text hover:hover-border'>
           <span>Добавить в корзину</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21" fill="none">
             <path d="M16.3331 19.1269C16.3331 19.8973 16.9385 20.4998 17.6585 20.4998C18.3784 20.4998 18.9839 19.8973 18.9839 19.1269C18.9839 18.3564 18.3784 17.7539 17.6585 17.7539C16.9385 17.7539 16.3331 18.3564 16.3331 19.1269Z" stroke="#78848F"/>
@@ -210,18 +212,20 @@ studyStudioList.innerHTML = `
           </svg>
         </button>
       </div>
+      
+      
     <!--    4-->
     <div class='study-studio__list-item flex flex-col gap-y-4 col-span-1'>
         <div class='slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
+          <a href='#' class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
             <img src='/img/images/study-studio/list-2xl-4.jpg' alt='studio 1' class='absolute-center'/>
-          </div>
+          </a>
           <div class='slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
           
             <div class='slide-title flex items-center justify-center w-fit' >
               <button class='flex items-center gap-x-2'>
-                <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold'>
-                  <span>Мастер-класс "Носорог"</span>
+                <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold hover:hover-text'>
+                  <span class='hover:hover-text'>Мастер-класс "Носорог"</span>
                 </span>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260' />
@@ -269,7 +273,7 @@ studyStudioList.innerHTML = `
             </div>
           </div>
         </div>
-        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary font-bold uppercase text-primary hover:text-primary-dark !font-bold'>
+        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary uppercase text-primary hover:text-primary-dark !font-bold hover:hover-text hover:hover-border'>
           <span>Добавить в корзину</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21" fill="none">
             <path d="M16.3331 19.1269C16.3331 19.8973 16.9385 20.4998 17.6585 20.4998C18.3784 20.4998 18.9839 19.8973 18.9839 19.1269C18.9839 18.3564 18.3784 17.7539 17.6585 17.7539C16.9385 17.7539 16.3331 18.3564 16.3331 19.1269Z" stroke="#78848F"/>
@@ -278,18 +282,20 @@ studyStudioList.innerHTML = `
           </svg>
         </button>
       </div>
+      
+      
     <!--    5-->
     <div class='study-studio__list-item flex flex-col gap-y-4 col-span-1'>
         <div class='slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
+          <a href='#' class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
             <img src='/img/images/study-studio/list-2xl-5.jpg' alt='studio 1' class='absolute-center'/>
-          </div>
+          </a>
           <div class='slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
           
             <div class='slide-title flex items-center justify-center w-fit' >
               <button class='flex items-center gap-x-2'>
-                <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold'>
-                  <span>Мастер-класс "Вертолетики"</span>
+                <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold hover:hover-text'>
+                  <span class='hover:hover-text'>Мастер-класс "Вертолетики"</span>
                 </span>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260' />
@@ -337,7 +343,7 @@ studyStudioList.innerHTML = `
             </div>
           </div>
         </div>
-        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary font-bold uppercase text-primary hover:text-primary-dark !font-bold'>
+        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary uppercase text-primary hover:text-primary-dark !font-bold hover:hover-text hover:hover-border'>
           <span>Добавить в корзину</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21" fill="none">
             <path d="M16.3331 19.1269C16.3331 19.8973 16.9385 20.4998 17.6585 20.4998C18.3784 20.4998 18.9839 19.8973 18.9839 19.1269C18.9839 18.3564 18.3784 17.7539 17.6585 17.7539C16.9385 17.7539 16.3331 18.3564 16.3331 19.1269Z" stroke="#78848F"/>
@@ -350,15 +356,15 @@ studyStudioList.innerHTML = `
     <!--    6-->
     <div class='study-studio__list-item md:flex flex-col gap-y-4 col-span-1 hidden'>
         <div class='slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
+          <a href='#' class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden '>
             <img src='/img/images/study-studio/list-2xl-1.jpg' alt='studio 1' class='absolute-center'/>
-          </div>
+          </a>
           <div class='slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
           
             <div class='slide-title flex items-center justify-center w-fit' >
               <button class='flex items-center gap-x-2'>
-                <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold'>
-                  <span>Мастер-класс "Крыло"</span>
+                <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold hover:hover-text'>
+                  <span class='hover:hover-text'>Мастер-класс "Крыло"</span>
                 </span>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260' />
@@ -406,8 +412,8 @@ studyStudioList.innerHTML = `
             </div>
           </div>
         </div>
-        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary font-bold uppercase text-primary hover:text-primary-dark !font-bold'>
-          <span>Добавить в корзину</span>
+        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary uppercase text-primary hover:text-primary-dark !font-bold hover:hover-text hover:hover-border'>
+          <span class='hover:hover-text'>Добавить в корзину</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21" fill="none">
             <path d="M16.3331 19.1269C16.3331 19.8973 16.9385 20.4998 17.6585 20.4998C18.3784 20.4998 18.9839 19.8973 18.9839 19.1269C18.9839 18.3564 18.3784 17.7539 17.6585 17.7539C16.9385 17.7539 16.3331 18.3564 16.3331 19.1269Z" stroke="#78848F"/>
             <path d="M8.17489 19.1269C8.17489 19.8973 8.78034 20.4998 9.50029 20.4998C10.2202 20.4998 10.8257 19.8973 10.8257 19.1269C10.8257 18.3564 10.2202 17.7539 9.50029 17.7539C8.78034 17.7539 8.17489 18.3564 8.17489 19.1269Z" stroke="#78848F"/>
@@ -424,9 +430,9 @@ studyStudioList.innerHTML = `
           <div class='slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
           
             <div class='slide-title flex items-center justify-center w-fit' >
-              <button class='flex items-center gap-x-2'>
+              <button class='flex items-center gap-x-2 hover:hover-text'>
                 <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold'>
-                  <span>Мастер-класс "Фламинго"</span>
+                  <span class='hover:hover-text'>Мастер-класс "Фламинго"</span>
                 </span>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260' />
@@ -474,8 +480,8 @@ studyStudioList.innerHTML = `
             </div>
           </div>
         </div>
-        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary font-bold uppercase text-primary hover:text-primary-dark !font-bold'>
-          <span>Добавить в корзину</span>
+        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary uppercase text-primary hover:text-primary-dark !font-bold hover:hover-text hover:hover-border'>
+          <span class='hover:hover-text'>Добавить в корзину</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21" fill="none">
             <path d="M16.3331 19.1269C16.3331 19.8973 16.9385 20.4998 17.6585 20.4998C18.3784 20.4998 18.9839 19.8973 18.9839 19.1269C18.9839 18.3564 18.3784 17.7539 17.6585 17.7539C16.9385 17.7539 16.3331 18.3564 16.3331 19.1269Z" stroke="#78848F"/>
             <path d="M8.17489 19.1269C8.17489 19.8973 8.78034 20.4998 9.50029 20.4998C10.2202 20.4998 10.8257 19.8973 10.8257 19.1269C10.8257 18.3564 10.2202 17.7539 9.50029 17.7539C8.78034 17.7539 8.17489 18.3564 8.17489 19.1269Z" stroke="#78848F"/>
@@ -486,15 +492,15 @@ studyStudioList.innerHTML = `
     <!--    8-->
     <div class='study-studio__list-item xl:flex flex-col gap-y-4 col-span-1 hidden'>
         <div class='slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
+          <a href='#' class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
             <img src='/img/images/study-studio/list-2xl-2.jpg' alt='studio 1' class='absolute-center'/>
-          </div>
+          </a>
           <div class='slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
           
             <div class='slide-title flex items-center justify-center w-fit' >
-              <button class='flex items-center gap-x-2'>
+              <button class='flex items-center gap-x-2 hover:hover-text'>
                 <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold'>
-                  <span>Мастер-класс "Орхидея"</span>
+                  <span class='hover:hover-text'>Мастер-класс "Орхидея"</span>
                 </span>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260' />
@@ -542,8 +548,8 @@ studyStudioList.innerHTML = `
             </div>
           </div>
         </div>
-        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary font-bold uppercase text-primary hover:text-primary-dark !font-bold'>
-          <span>Добавить в корзину</span>
+        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary uppercase text-primary hover:text-primary-dark !font-bold hover:hover-text hover:hover-border hover:hover-text'>
+          <span class='hover:hover-text'>Добавить в корзину</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21" fill="none">
             <path d="M16.3331 19.1269C16.3331 19.8973 16.9385 20.4998 17.6585 20.4998C18.3784 20.4998 18.9839 19.8973 18.9839 19.1269C18.9839 18.3564 18.3784 17.7539 17.6585 17.7539C16.9385 17.7539 16.3331 18.3564 16.3331 19.1269Z" stroke="#78848F"/>
             <path d="M8.17489 19.1269C8.17489 19.8973 8.78034 20.4998 9.50029 20.4998C10.2202 20.4998 10.8257 19.8973 10.8257 19.1269C10.8257 18.3564 10.2202 17.7539 9.50029 17.7539C8.78034 17.7539 8.17489 18.3564 8.17489 19.1269Z" stroke="#78848F"/>
@@ -554,15 +560,15 @@ studyStudioList.innerHTML = `
     <!--    9-->
     <div class='study-studio__list-item xl:flex flex-col gap-y-4 col-span-1 hidden'>
         <div class='slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
+          <a href='#' class='slide-image w-full h-[100vw] md:h-[52vw] xl:h-[35.14vw] 2xl:h-[720px] relative overflow-hidden'>
             <img src='/img/images/study-studio/list-2xl-4.jpg' alt='studio 1' class='absolute-center'/>
-          </div>
+          </a>
           <div class='slide-info flex flex-col gap-y-3 2xl:gap-y-5'>
           
             <div class='slide-title flex items-center justify-center w-fit' >
-              <button class='flex items-center gap-x-2'>
+              <button class='flex items-center gap-x-2 hover:hover-text'>
                 <span class='text-button-primary text-primary hover:text-primary-dark uppercase font-bold'>
-                  <span>Мастер-класс "Носорог"</span>
+                  <span class='hover:hover-text'>Мастер-класс "Носорог"</span>
                 </span>
                 <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path class='stroke-secondary' d='M0.000488281 4H22.0005L16.0005 10' stroke='#033260' />
@@ -610,7 +616,7 @@ studyStudioList.innerHTML = `
             </div>
           </div>
         </div>
-        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary font-bold uppercase text-primary hover:text-primary-dark !font-bold'>
+        <button class='button flex gap-x-2 justify-center items-center min-h-[48px] px-6 py-[12px] 2xl:py-[18px] border border-primary hover:border-primary-dark text-button-primary uppercase text-primary hover:text-primary-dark !font-bold hover:hover-text hover:hover-border'>
           <span>Добавить в корзину</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21" fill="none">
             <path d="M16.3331 19.1269C16.3331 19.8973 16.9385 20.4998 17.6585 20.4998C18.3784 20.4998 18.9839 19.8973 18.9839 19.1269C18.9839 18.3564 18.3784 17.7539 17.6585 17.7539C16.9385 17.7539 16.3331 18.3564 16.3331 19.1269Z" stroke="#78848F"/>

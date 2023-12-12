@@ -17,7 +17,7 @@ newHobby.innerHTML = `
     </div>    
     
     <div class='academy__image h-[80vw] md:w-[42vw] md:h-[324px] lg:h-[480px] xl:w-[582px] xl:h-[35.2vw] 2xl:max-w-[772px] 2xl:max-h-[640px]  overflow-hidden relative md:flex-1 xl:flex-[2.14]'>
-      <img src='/img/images/main-page/want-2xl.jpg' alt='academy image' class='absolute md:relative left-0 md:left-auto right-0 md:right-auto md:w-[121%] md:max-w-none xl:w-full'>
+      <img src='/img/images/main-page/support-2xl.jpg' alt='academy image' class='absolute md:relative left-0 md:left-auto right-0 md:right-auto md:w-[121%] md:max-w-none xl:w-full'>
 <!--      <img src='/img/images/academy/academy-2xl.jpg' alt='academy image' class='absolute md:relative left-0 md:left-auto right-0 md:right-auto md:w-[121%] md:max-w-none xl:w-full'>-->
     </div>
     
@@ -25,8 +25,8 @@ newHobby.innerHTML = `
       <p>
         Окунетесь в атмосферу творчества и сделайте арт-объект своими руками в Академии современного барельефа Леонида Кима
       </p>
-      <button class='academy__button flex justify-center items-center px-6 2xl:px-10 py-[18px] 2xl:py-[21px] border border-primary lg:order-1 md:w-fit'>
-        <span class='mr-2 text-[14px] 2xl:text-[16px] tracking-[2.1px] 2xl:tracking-[2.4px] font-bold uppercase'>
+      <button class='academy__button flex justify-center items-center px-6 2xl:px-10 py-[18px] 2xl:py-[21px] border border-primary lg:order-1 md:w-fit hover:hover-border hover:hover-text'>
+        <span class='mr-2 text-[14px] 2xl:text-[16px] tracking-[2.1px] 2xl:tracking-[2.4px] font-bold uppercase hover:hover-text'>
           в академию
         </span>
         <svg width='24' height='11' viewBox='0 0 24 11' fill='none' xmlns='http://www.w3.org/2000/svg' class=''>

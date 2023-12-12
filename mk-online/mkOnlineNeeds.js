@@ -182,7 +182,7 @@ mkOnlineNeeds.innerHTML = `
     
     <div class='bottom flex flex-col gap-y-3 xl:flex-row xl:items-center xl:justify-start xl:gap-x-[42px] xl:mt-[42px] 2xl:mt-[64px]'>
       <p class='text-16-400 xl:order-2'>Подробные характеристики перечисленных материалов вы получите в чек-листе, который высылается вместе с мастер-классом</p>
-      <button class='footer__button flex-center xl:justify-start xl:w-fit md:order-1 w-full my-[48px] md:my-20 xl:my-0 xl:order-1'>
+      <button class='footer__button flex-center xl:justify-start xl:w-fit md:order-1 w-full my-[48px] md:my-20 xl:my-0 xl:order-1 hover:hover-bg'>
         <span class='w-full min-w-[220px] flex justify-center items-center xl:justify-start xl:w-fit text-button-primary bg-primary text-light px-5 py-4 xl:px-[46px] xl:shrink-0'>
           <nobr>всё нравится, хочу учиться!</nobr>
         </span>

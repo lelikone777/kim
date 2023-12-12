@@ -1,7 +1,7 @@
-export const price = document.createElement('section')
-price.classList.add('price', 'section')
+export const exclusivePrice = document.createElement('section')
+exclusivePrice.classList.add('exclusivePrice', 'section')
 
-price.innerHTML = `
+exclusivePrice.innerHTML = `
 <div class='price__wrapper relative max-w-screen-2xl m-auto'>
   <div
     class='price__image absolute left-0 right-0 xl:right-auto z-10 top-3 md:top-5 2xl:top-1/2 2xl:translate-y-[-50%] h-[55vw] md:h-[46.878vw] xl:h-[619px] xl:w-[46vw] xl:top-1/2 xl:translate-y-[-50%] 2xl:h-[741px] 2xl:w-[936px] overflow-hidden'>

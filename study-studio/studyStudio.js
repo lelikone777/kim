@@ -7,6 +7,7 @@ import { studyStudioPrinciples } from './studyStudioPrinciples.js'
 import { studyStudioMk } from './studyStudioMk.js'
 import { studyStudioList } from './studyStudioList.js'
 import { studyStudioContact } from './studyStudioContact.js'
+import { studyStudioPrice } from './studyStudioPrice.js'
 
 const studyStudio = document.querySelector('#study-studio')
 
@@ -15,6 +16,7 @@ studyStudio.append(studyStudioTitle)
 studyStudio.append(studyStudioPrinciples)
 studyStudio.append(studyStudioMk)
 studyStudio.append(studyStudioList)
-studyStudio.append(studyStudioContact)
+studyStudio.append(studyStudioPrice)
+// studyStudio.append(studyStudioContact)
 
 studyStudio.append(mainFooter)

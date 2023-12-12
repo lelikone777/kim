@@ -7,7 +7,7 @@ academyLearn.innerHTML = `
 
   <div class='principles__title text-26-300 text-left xl:pb-10'>
     <div class='m-auto md:px-0'>
-      <h2 class='uppercase'>FAQ</h2>
+      <h2 class='uppercase'>вас будут учить одни из лучших мастеров своего дела</h2>
     </div>
   </div> 
 </div>
@@ -18,13 +18,13 @@ academyLearn.innerHTML = `
       <div class='shop__slider-slides flex gap-x-4 md:gap-x-[42px]'>
       
         <div class='shop__slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='shop__slide-image w-[300px] h-[300px] md:w-[334px] md:h-[334px] xl:w-[374px] xl:h-[374px] 2xl:w-[528px] 2xl:h-[528px] overflow-hidden'>
+          <a href='#' class='shop__slide-image w-[300px] h-[300px] md:w-[334px] md:h-[334px] xl:w-[374px] xl:h-[374px] 2xl:w-[528px] 2xl:h-[528px] overflow-hidden'>
             <img src='/img/images/academy/kim-slider.jpg' alt='project 1' class='' />
-          </div>
+          </a>
           <div class='shop__slide-info flex flex-col'>
-            <div class='shop__slide-title flex items-center justify-center w-fit'>
-              <h4 class='text-24-300'>Леонид Ким</h4>
-            </div>
+            <button class='shop__slide-title flex items-center justify-center w-fit hover:hover-text'>
+              <h4 class='text-24-300 hover:hover-text hover:hover-text'>Леонид Ким</h4>
+            </button>
             <div class='shop__slide-data flex justify-start items-center gap-x-4'>
               <p class='text-14-300 text-light-grey'>Основатель студии современного барельефа, художник, архитектор.</p>
             </div>
@@ -32,13 +32,13 @@ academyLearn.innerHTML = `
         </div>
 
         <div class='shop__slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='shop__slide-image w-[300px] h-[300px] md:w-[334px] md:h-[334px] xl:w-[374px] xl:h-[374px] 2xl:w-[528px] 2xl:h-[528px] overflow-hidden'>
+          <a href='#' class='shop__slide-image w-[300px] h-[300px] md:w-[334px] md:h-[334px] xl:w-[374px] xl:h-[374px] 2xl:w-[528px] 2xl:h-[528px] overflow-hidden'>
             <img src='/img/images/academy/kim-slider.jpg' alt='project 1' class='' />
-          </div>
+          </a>
           <div class='shop__slide-info flex flex-col'>
-            <div class='shop__slide-title flex items-center justify-center w-fit'>
-              <h4 class='text-24-300'>Леонид Ким</h4>
-            </div>
+            <button class='shop__slide-title flex items-center justify-center w-fit hover:hover-text'>
+              <h4 class='text-24-300 hover:hover-text hover:hover-text'>Леонид Ким</h4>
+            </button>
             <div class='shop__slide-data flex justify-start items-center gap-x-4'>
               <p class='text-14-300 text-light-grey'>Основатель студии современного барельефа, художник, архитектор.</p>
             </div>
@@ -46,13 +46,13 @@ academyLearn.innerHTML = `
         </div>
 
         <div class='shop__slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='shop__slide-image w-[300px] h-[300px] md:w-[334px] md:h-[334px] xl:w-[374px] xl:h-[374px] 2xl:w-[528px] 2xl:h-[528px] overflow-hidden'>
+          <a href='#' class='shop__slide-image w-[300px] h-[300px] md:w-[334px] md:h-[334px] xl:w-[374px] xl:h-[374px] 2xl:w-[528px] 2xl:h-[528px] overflow-hidden'>
             <img src='/img/images/academy/kim-slider.jpg' alt='project 1' class='' />
-          </div>
+          </a>
           <div class='shop__slide-info flex flex-col'>
-            <div class='shop__slide-title flex items-center justify-center w-fit'>
-              <h4 class='text-24-300'>Леонид Ким</h4>
-            </div>
+            <button class='shop__slide-title flex items-center justify-center w-fit hover:hover-text'>
+              <h4 class='text-24-300 hover:hover-text hover:hover-text'>Леонид Ким</h4>
+            </button>
             <div class='shop__slide-data flex justify-start items-center gap-x-4'>
               <p class='text-14-300 text-light-grey'>Основатель студии современного барельефа, художник, архитектор.</p>
             </div>
@@ -60,13 +60,13 @@ academyLearn.innerHTML = `
         </div>
 
         <div class='shop__slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='shop__slide-image w-[300px] h-[300px] md:w-[334px] md:h-[334px] xl:w-[374px] xl:h-[374px] 2xl:w-[528px] 2xl:h-[528px] overflow-hidden'>
+          <a href='#' class='shop__slide-image w-[300px] h-[300px] md:w-[334px] md:h-[334px] xl:w-[374px] xl:h-[374px] 2xl:w-[528px] 2xl:h-[528px] overflow-hidden'>
             <img src='/img/images/academy/kim-slider.jpg' alt='project 1' class='' />
-          </div>
+          </a>
           <div class='shop__slide-info flex flex-col'>
-            <div class='shop__slide-title flex items-center justify-center w-fit'>
-              <h4 class='text-24-300'>Леонид Ким</h4>
-            </div>
+            <button class='shop__slide-title flex items-center justify-center w-fit hover:hover-text'>
+              <h4 class='text-24-300 hover:hover-text hover:hover-text'>Леонид Ким</h4>
+            </button>
             <div class='shop__slide-data flex justify-start items-center gap-x-4'>
               <p class='text-14-300 text-light-grey'>Основатель студии современного барельефа, художник, архитектор.</p>
             </div>
@@ -74,13 +74,13 @@ academyLearn.innerHTML = `
         </div>
 
         <div class='shop__slide flex flex-col gap-y-5 2xl:gap-y-8'>
-          <div class='shop__slide-image w-[300px] h-[300px] md:w-[334px] md:h-[334px] xl:w-[374px] xl:h-[374px] 2xl:w-[528px] 2xl:h-[528px] overflow-hidden'>
+          <a href='#' class='shop__slide-image w-[300px] h-[300px] md:w-[334px] md:h-[334px] xl:w-[374px] xl:h-[374px] 2xl:w-[528px] 2xl:h-[528px] overflow-hidden'>
             <img src='/img/images/academy/kim-slider.jpg' alt='project 1' class='' />
-          </div>
+          </a>
           <div class='shop__slide-info flex flex-col'>
-            <div class='shop__slide-title flex items-center justify-center w-fit'>
-              <h4 class='text-24-300'>Леонид Ким</h4>
-            </div>
+            <button class='shop__slide-title flex items-center justify-center w-fit hover:hover-text'>
+              <h4 class='text-24-300 hover:hover-text hover:hover-text'>Леонид Ким</h4>
+            </button>
             <div class='shop__slide-data flex justify-start items-center gap-x-4'>
               <p class='text-14-300 text-light-grey'>Основатель студии современного барельефа, художник, архитектор.</p>
             </div>

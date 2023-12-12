@@ -23,8 +23,8 @@ exclusiveTop.innerHTML = `
     </div>
   </div>
   
-  <a href='#' class='catalog__magazine pl-4 flex xl:self-end'>
-    <div class='catalog__magazine-wrap flex  w-full items-center bg-primary text-light fill-light'>
+  <button class='catalog__magazine pl-4 flex xl:self-end '>
+    <div class='catalog__magazine-wrap flex  w-full items-center bg-primary text-light fill-light hover:hover-bg'>
       <div class='catalog__magazine-left relative w-[88px] h-[54px] 2xl:w-[120px] 2xl:h-[74px]'>
         <img src='/img/images/catalog/magazines.png' alt='magazines image' class='absolute w-full left-[-15%]'>
       </div>  
@@ -33,7 +33,7 @@ exclusiveTop.innerHTML = `
         <span class='text-10-350-header'>12 арт-объектов сделанных вручную</span>
       </div>    
     </div>
-  </a>
+  </button>
   
   
   

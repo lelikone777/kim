@@ -15,7 +15,7 @@ recommendation.innerHTML = `
     
     
 <!--      1-->
-  <div class='xl:flex '>
+  <div class='flex flex-col xl:flex-row flex-1'>
     <div class='flex justify-between gap-x-4 xl:flex-col gap-y-4 flex-1'>
       <div class='flex flex-col xl:flex-row'>
       
@@ -48,7 +48,7 @@ recommendation.innerHTML = `
         
       
 <!--      2-->
-  <div class='xl:flex '>
+  <div class='flex flex-col xl:flex-row flex-1'>
     <div class='flex justify-between gap-x-4 xl:flex-col gap-y-4 flex-1'>
       <div class='flex flex-col xl:flex-row'>
       
@@ -82,7 +82,7 @@ recommendation.innerHTML = `
 
       
 <!--      3-->
-  <div class='xl:flex '>
+  <div class='flex flex-col xl:flex-row flex-1'>
     <div class='flex justify-between gap-x-4 xl:flex-col gap-y-4 flex-1'>
       <div class='flex flex-col xl:flex-row'>
       
@@ -116,7 +116,7 @@ recommendation.innerHTML = `
     
     
     <!--      4-->
-      <div class='xl:flex '>
+      <div class='flex flex-col xl:flex-row flex-1'>
         <div class='flex justify-between gap-x-4 xl:flex-col gap-y-4 flex-1'>
           <div class='flex flex-col xl:flex-row'>
           

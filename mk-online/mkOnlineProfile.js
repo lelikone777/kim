@@ -102,7 +102,7 @@ mkOnlineProfile.innerHTML = `
           </div>
           
   <div class=''>          
-    <button class='shop__button flex justify-center items-center px-6 py-[12px] 2xl:py-[18px] bg-primary'>
+    <button class='shop__button flex justify-center items-center px-6 py-[12px] 2xl:py-[18px] bg-primary hover:hover-bg'>
       <span class='mr-2 text-button-primary text-light uppercase'>купить через getcourse</span>
       <svg width='34' height='28' viewBox='0 0 34 28' fill='none' xmlns='http://www.w3.org/2000/svg' class='w-6 h-6 [&>path]:text-light'>
         <path d='M21.6301 25.1958C21.6301 26.3004 22.5256 27.1958 23.6301 27.1958C24.7347 27.1958 25.6301 26.3004 25.6301 25.1958C25.6301 24.0912 24.7347 23.1958 23.6301 23.1958C22.5256 23.1958 21.6301 24.0912 21.6301 25.1958Z' stroke='white'/>

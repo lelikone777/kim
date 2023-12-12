@@ -16,6 +16,10 @@ img {
     height: auto;
 }
 
+input[type=checkbox], input[type=radio], label {
+    cursor: pointer;
+}
+
 @layer utilities {
 
     /* --- colors ---*/
@@ -232,6 +236,24 @@ img {
     }
     .slider-button-inner-active {
         @apply bg-primary
+    }
+
+    /*--- hovers ---*/
+
+    .hover-text {
+        @apply text-primary-dark
+    }
+
+    .hover-bg {
+        @apply bg-primary-dark
+    }
+
+    .hover-border {
+        @apply border-primary-dark
+    }
+
+    .hover-input {
+        @apply border-primary
     }
 
 }

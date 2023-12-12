@@ -3,8 +3,7 @@ ar.classList.add('ar')
 
 ar.innerHTML = `
   <div class='price__wrapper relative max-w-screen-2xl m-auto'>
-    <div
-      class='price__image absolute left-0 right-0 xl:right-auto z-10 top-3 md:top-5 xl:top-4 2xl:top-10 h-[55vw] md:h-[46.878vw] xl:h-[619px] xl:w-[662px]  2xl:h-[741px] 2xl:w-[936px] overflow-hidden '>
+    <div class='price__image absolute left-0 right-0 xl:right-auto z-10 top-3 md:top-5 xl:top-1/2 xl:translate-y-[-50%] h-[55vw] md:h-[46.878vw] xl:h-[296px] xl:w-[46vw]  2xl:h-[334px] 2xl:w-[936px] overflow-hidden '>
       <img
         src='/img/images/product/hand1.jpg'
         alt='contact image'
@@ -39,7 +38,7 @@ ar.innerHTML = `
           </p>
         </div>
         
-        <button class='shop__button flex justify-center items-center px-6 py-[18px] 2xl:py-[18px] border border-primary lg:order-1 xl:w-fit'>
+        <button class='shop__button flex justify-center items-center px-6 py-[18px] 2xl:py-[18px] border border-primary lg:order-1 xl:w-fit hover:hover-text hover:hover-border'>
           <span class='text-[14px] 2xl:text-[16px] tracking-[2.1px] 2xl:tracking-[2.4px] font-bold uppercase'>применить</span>
         </button>
       </div>

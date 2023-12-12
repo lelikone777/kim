@@ -17,7 +17,7 @@ studyStudioMk.innerHTML = `
         <button
           class='tabs-button flex-1 tabs-button-active px-3 py-2'>Для начинающих</button>
         <button
-          class='tabs-button flex-1 px-3 py-2'>Для продвинутых</button>
+          class='tabs-button flex-1 px-3 py-2 hover:bg-lighter-grey'>Для продвинутых</button>
       </div>
     </div>
     
@@ -33,7 +33,7 @@ studyStudioMk.innerHTML = `
     </div>
 </div>
 
-<div class='study-studio__calendar flex items-center overflow-hidden [&>div]:shrink-0 my-5'>
+<div class='study-studio__calendar flex items-center overflow-hidden [&>div]:shrink-0 my-5 m-auto max-w max-w-screen-2xl'>
 
   <div class='day flex flex-col items-center justify-center gap-y-[-4px] w-[64px] h-[72px] 2xl:w-[104px] 2xl:h-[120px] bg-semi-grey border border-semi-grey'>
     <span class='text-10-350-header'>Сентябрь</span>

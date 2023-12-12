@@ -10,8 +10,8 @@ whyUs.innerHTML = `
     </div>
 
   
-    <div class='info flex justify-between gap-x-5'>
-      <div class='left flex flex-1 flex-col gap-y-5 max-w-[324px] md:max-w-[456px] xl:max-w-[788px]'>
+    <div class='info flex justify-between gap-x-5 md:gap-x-10 xl:gap-x-[104px]'>
+      <div class='left flex flex-1 flex-col gap-y-5 '>
         <div class=''>
           <p class='text-14-300 2xl:text-[20px]'>
             Мы создаем технически продуманное концептуальное искусство высокого качества, которое гарантированно украсит любой интерьер.
@@ -26,7 +26,7 @@ whyUs.innerHTML = `
       </div>
       
       
-      <div class='right flex flex-1 flex-col gap-y-5 max-w-[324px] md:max-w-[456px] xl:max-w-[788px]'>
+      <div class='right flex flex-1 flex-col gap-y-5'>
         <div class=''>
           <img src='/img/images/whyUs/2.jpg' alt='1' class='md:hidden'>
           <img src='/img/images/whyUs/2-md.jpg' alt='1' class='hidden md:block xl:hidden'>

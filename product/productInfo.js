@@ -21,7 +21,7 @@ productInfo.innerHTML = `
   <div class='product-info__profile'>
     <div class='product-info__profile-box flex flex-col md:flex-row md:flex-wrap items-center gap-y-10 gap-x-5 md:grid grid-flow-row-dense md:grid-cols-2 max-w-screen-2xl m-auto'>
     
-      <div class='product-info__image w-full max-w-[375px] md:max-w-[662px]   xl:max-w-[936px]        md:col-span-1 md:row-span-2'>
+      <div class='product-info__image w-full max-w-[375px] md:max-w-[662px] xl:max-w-[936px] md:col-span-1 md:row-span-2'>
         <div class='flex flex-col gap-y-5'>
           <div class='w-full'>
             <img
@@ -87,7 +87,7 @@ productInfo.innerHTML = `
               <path d="M11 0V12M11 12L7 8M11 12L15 8" stroke="#033260"/>
               <path d="M1 12V17H21V12" stroke="#033260"/>
             </svg>
-            <span class='text-12-400-header !font-bold text-primary uppercase'>Скачать инструкцию по установке</span>
+            <span class='text-12-400-header !font-bold text-primary uppercase hover:hover-text'>Скачать инструкцию по установке</span>
           </button>
         </div>
         
@@ -115,7 +115,7 @@ productInfo.innerHTML = `
             <div class='tr flex justify-between items-center gap-x-2'>
               <div class='flex items-center'>
                 <div class='flex items-center gap-x-2'>
-                  <input id='product-info-check' type='checkbox' value='' class='relative peer shrink-0 appearance-none w-5 h-5 2xl:w-7 2xl:h-7 border border-primary rounded-none bg-light'>
+                  <input id='product-info-check' type='checkbox' value='' class='relative peer shrink-0 appearance-none w-5 h-5 2xl:w-7 2xl:h-7 border border-primary rounded-none bg-light checked:hover:hover-bg'>
                   <label for='product-info-check' class='text-14-300 !leading-[125%] '>Мне нужен монтаж</label>
                   <img src='/img/icons/checked-icon.svg' alt='check arrow' class='absolute w-5 h-5 2xl:w-7 2xl:h-7 hidden peer-checked:block pointer-events-none'>
                 </div>
@@ -125,7 +125,7 @@ productInfo.innerHTML = `
             
           </div>
 
-          <button class='shop__button flex justify-center items-center px-6 py-[12px] 2xl:py-[18px] bg-primary'>
+          <button class='shop__button flex justify-center items-center px-6 py-[12px] 2xl:py-[18px] bg-primary hover:hover-bg'>
             <span class='mr-2 text-button-primary text-light uppercase'>добавить в корзину</span>
             <svg width='34' height='28' viewBox='0 0 34 28' fill='none' xmlns='http://www.w3.org/2000/svg' class='w-6 h-6 [&>path]:text-light'>
               <path d='M21.6301 25.1958C21.6301 26.3004 22.5256 27.1958 23.6301 27.1958C24.7347 27.1958 25.6301 26.3004 25.6301 25.1958C25.6301 24.0912 24.7347 23.1958 23.6301 23.1958C22.5256 23.1958 21.6301 24.0912 21.6301 25.1958Z' stroke='white'/>
@@ -161,9 +161,9 @@ productInfo.innerHTML = `
               <button
                 class='tabs-button flex-1  tabs-button-active px-3 py-2'>Доставка </button>
               <button
-                class='tabs-button flex-1 px-3 py-2'>Самовывоз</button>
+                class='tabs-button flex-1 px-3 py-2 hover:bg-lighter-grey'>Самовывоз</button>
               <button
-                class='tabs-button flex-1 px-3 py-2'>Оплата</button>
+                class='tabs-button flex-1 px-3 py-2 hover:bg-lighter-grey'>Оплата</button>
             </div>
           </div>     
           

@@ -6,6 +6,7 @@ import { onlineLearnTitle } from './onlineLearnTitle.js'
 import { onlineLearnWhom } from './onlineLearnWhom.js'
 import { onlineLearnMK } from './onlineLearnMK.js'
 import { onlineLearnContact } from './onlineLearnContact.js'
+import { onlineLearnPrice } from './onlineLearnPrice.js'
 
 const onlineLearn = document.querySelector('#online-learn')
 
@@ -13,6 +14,7 @@ onlineLearn.append(headerPrimary)
 onlineLearn.append(onlineLearnTitle)
 onlineLearn.append(onlineLearnWhom)
 onlineLearn.append(onlineLearnMK)
-onlineLearn.append(onlineLearnContact)
+onlineLearn.append(onlineLearnPrice)
+// onlineLearn.append(onlineLearnContact)
 
 onlineLearn.append(mainFooter)

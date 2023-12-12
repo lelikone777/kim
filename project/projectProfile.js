@@ -118,7 +118,7 @@ projectProfile.innerHTML = `
           </div>
 
           <div class='flex flex-col justify-center'>
-            <button class='shop__button flex justify-center items-center px-6 py-[12px] 2xl:py-[18px] bg-primary'>
+            <button class='shop__button flex justify-center items-center px-6 py-[12px] 2xl:py-[18px] bg-primary hover:hover-bg'>
               <span class='mr-2 text-button-primary text-light uppercase'>заказать авторскую копию</span>   
             </button>
             <div class='mx-5 border border-secondary text-14-20-300 py-2 px-4 text-center'><p>Возможны другие размеры и художественное переосмысление</p></div>
