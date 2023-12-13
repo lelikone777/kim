@@ -39,7 +39,7 @@ designersFaq.innerHTML = `
     <div class='item flex flex-col p-3 pl-5 xl:px-10 xl:py-8 border border-semi-grey relative gap-y-2'>
         <div class='title text-16-400 !font-bold'>Название вопроса</div>
         <div class='text'><p class='text-14-400'>Таким образом, укрепление и развитие внутренней структуры создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса благоприятных перспектив.</p></div>
-        <svg class='absolute left-[-10px] top-[50%] translate-y-[-50%]' xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36" fill="none">
+        <svg class='absolute left-[-10px] top-[30%] translate-y-[-50%]' xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36" fill="none">
           <rect width="20" height="36" fill="white"/>
           <line y1="17.5" x2="20" y2="17.5" stroke="#033260"/>
         </svg>

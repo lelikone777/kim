@@ -1,8 +1,8 @@
-export const aboutStudioContacts = document.createElement('section')
-aboutStudioContacts.classList.add('about-studio__contacts')
+export const faqContacts2 = document.createElement('section')
+faqContacts2.classList.add('faqContacts2', 'section')
 
-aboutStudioContacts.innerHTML = `
-  
+faqContacts2.innerHTML = `
+
 <div class='price__wrapper relative max-w-screen-2xl m-auto mb-5 md:mb-10 xl:mb-20 2xl:mb-[160px]'>
   <div
     class='price__image absolute left-0 right-0 xl:right-auto z-10 top-3 md:top-5 2xl:top-1/2 2xl:translate-y-[-50%] h-[55vw] md:h-[46.878vw] xl:h-[619px] xl:top-1/2 xl:translate-y-[-50%] 2xl:h-[741px] 2xl:w-[936px] overflow-hidden xl:w-[46vw] '>
@@ -69,5 +69,5 @@ aboutStudioContacts.innerHTML = `
     </div>
   </div>
 </div>
-  
+
 `

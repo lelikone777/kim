@@ -6,6 +6,7 @@ import { faqContacts } from './faqContacts.js'
 import { faqNewsRecommendSlider } from './faqNewsRecommendSlider.js'
 import { faqFaq } from './faqFaq.js'
 import { faqCategoryName } from './faqCategoryName.js'
+import { faqContacts2 } from './faqContacts2.js'
 
 const faq = document.querySelector('#faq')
 
@@ -15,6 +16,7 @@ faq.append(faqFaq)
 // Название категорий
 // faq.append(faqCategoryName)
 
-faq.append(faqContacts)
+// faq.append(faqContacts)
+faq.append(faqContacts2)
 faq.append(faqNewsRecommendSlider)
 faq.append(mainFooter)

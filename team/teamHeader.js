@@ -129,7 +129,7 @@ teamHeader.innerHTML = `
                     </svg>
                   </button>
                   <div class='line h-[1px] w-full flex-1 bg-white xl:items-center flex relative'>
-                    <div class='w-1/4 max max-w-[580px] h-3 border border-light absolute left-1/4 -translate-x-1/2'></div>
+                    <div class='w-1/4 max max-w-[580px] h-3 border border-light absolute left-1/4 -translate-x-1/2 bg-deep-grey'></div>
                   </div>
                   <button class='right-arr'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none" class='rotate-180'>

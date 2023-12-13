@@ -3,35 +3,27 @@ faqFaq.classList.add('faq__faq')
 
 faqFaq.innerHTML = `
   
-<div class="academy-profile__wrapper flex flex-col gap-y-1 my-5 ml-auto mr-auto px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl">
-  <div class="academy-profile__pagination text-14-400 text-primary mb-1">
-    <ul class="flex flex-wrap gap-x-3 gap-y-1">
-      <li>
-        <a href="#">
-          <span>Главная</span>
-        </a>
-      </li>
-      <li>
-        <a href="#" class='text-light-grey'>
-          <span>FAQ</span>
-        </a>
-      </li>
-     
-    </ul>
+  <div class="academy-profile__wrapper flex flex-col gap-y-1 my-5 ml-auto mr-auto px-5 md:px-10 xl:px-20 2xl:px-[120px] max-w-screen-2xl">
+    <div class="academy-profile__pagination text-14-400 text-primary mb-1">
+      <ul class="flex flex-wrap gap-x-3 gap-y-1">
+        <li>
+          <a href="#">
+            <span>Главная</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class='text-light-grey'>
+            <span>FAQ</span>
+          </a>
+        </li>
+       
+      </ul>
+    </div>
+  
+    <div class="academy-profile__title flex mb-3">
+      <h2 class=" text-32-300 uppercase">FAQ</h2>
+    </div>
   </div>
-
-  <div class="academy-profile__title flex mb-3">
-    <h2 class=" text-32-300 uppercase">FAQ</h2>
-  </div>
-</div>
-
-
-
-
-
-
-
-
 
 
 
@@ -91,7 +83,7 @@ faqFaq.innerHTML = `
         <div class='item flex flex-col p-3 pl-5 xl:px-10 xl:py-8 border border-semi-grey relative gap-y-2'>
             <div class='title text-16-400 !font-bold'>Название вопроса</div>
             <div class='text'><p class='text-14-400'>Таким образом, укрепление и развитие внутренней структуры создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса благоприятных перспектив.</p></div>
-            <svg class='absolute left-[-10px] top-6 translate-y-[-50%]' xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36" fill="none">
+            <svg class='absolute left-[-10px] top-[30%] translate-y-[-50%]' xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36" fill="none">
               <rect width="20" height="36" fill="white"/>
               <line y1="17.5" x2="20" y2="17.5" stroke="#033260"/>
             </svg>

@@ -1,8 +1,8 @@
-export const aboutStudioContacts = document.createElement('section')
-aboutStudioContacts.classList.add('about-studio__contacts')
+export const designersContacts2 = document.createElement('section')
+designersContacts2.classList.add('designersContacts2', 'section')
 
-aboutStudioContacts.innerHTML = `
-  
+designersContacts2.innerHTML = `
+
 <div class='price__wrapper relative max-w-screen-2xl m-auto mb-5 md:mb-10 xl:mb-20 2xl:mb-[160px]'>
   <div
     class='price__image absolute left-0 right-0 xl:right-auto z-10 top-3 md:top-5 2xl:top-1/2 2xl:translate-y-[-50%] h-[55vw] md:h-[46.878vw] xl:h-[619px] xl:top-1/2 xl:translate-y-[-50%] 2xl:h-[741px] 2xl:w-[936px] overflow-hidden xl:w-[46vw] '>
@@ -21,7 +21,7 @@ aboutStudioContacts.innerHTML = `
 <div class='flex flex-col gap-y-5 md:gap-y-10 2xl:gap-y-16'>
       <div class='price__text flex flex-col gap-y-3 items-start text-left'>
         <p class='inline-block text-[26px] 2xl:text-[40px] leading-[140%] tracking-[0.5px] 2xl:tracking-[0.8px] uppercase'>
-          Если есть вопросы, мы с радостью на них ответим
+          Есть вопросы?
         </p>
         <p class='text-[14px] 2xl:text-[16px] leading-[160%] tracking-[0.4px]'>
           Напишите ваши контактные данные, чтобы мы связались с вами. Мы
@@ -69,5 +69,5 @@ aboutStudioContacts.innerHTML = `
     </div>
   </div>
 </div>
-  
+
 `

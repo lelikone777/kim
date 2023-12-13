@@ -10,6 +10,8 @@ import { designersContact } from './designersContact.js'
 import { designersFaq } from './designersFaq.js'
 import { designersEnd } from './designersEnd.js'
 import { sliderAuthor } from './sliderAuthor.js'
+import { designersPrice2 } from './designersPrice2.js'
+import { designersContacts2 } from './designersContacts2.js'
 
 const designers = document.querySelector('#designers')
 
@@ -19,8 +21,10 @@ designers.append(designersHero)
 designers.append(slider1)
 designers.append(sliderAuthor)
 designers.append(slider2)
-designers.append(designersContact)
+// designers.append(designersContact)
+designers.append(designersPrice2)
 designers.append(designersFaq)
-designers.append(designersEnd)
+// designers.append(designersEnd)
+designers.append(designersContacts2)
 
 designers.append(mainFooter)

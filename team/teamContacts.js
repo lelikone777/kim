@@ -3,9 +3,9 @@ teamContacts.classList.add('teamContacts')
 
 teamContacts.innerHTML = `
   
-<div class='price__wrapper relative max-w-screen-2xl m-auto '>
+<div class='price__wrapper relative max-w-screen-2xl m-auto mb-5 md:mb-10 xl:mb-20 2xl:mb-[160px]'>
   <div
-    class='price__image absolute left-0 right-0 xl:right-auto z-10 top-3 md:top-5 2xl:top-1/2 2xl:translate-y-[-50%] h-[55vw] md:h-[46.878vw] xl:h-[619px] xl:w-[662px] xl:top-1/2 xl:translate-y-[-50%] 2xl:h-[741px] 2xl:w-[936px] overflow-hidden xl:w-[46vw] '>
+    class='price__image absolute left-0 right-0 xl:right-auto z-10 top-3 md:top-5 2xl:top-1/2 2xl:translate-y-[-50%] h-[55vw] md:h-[46.878vw] xl:h-[619px] xl:top-1/2 xl:translate-y-[-50%] 2xl:h-[741px] 2xl:w-[936px] overflow-hidden xl:w-[46vw] '>
     <img
       src='/img/images/principles-image-3-big.jpg'
       alt='contact image'
@@ -13,7 +13,7 @@ teamContacts.innerHTML = `
     />
   </div>
 
-  <div class='price__box relative border border-semi-grey mx-5 md:mx-10 xl:mx-20 px-5 sm:px-10 md:px-20 py-5 sm:py-10 md:py-20 xl:flex gap-x-20' >
+  <div class='price__box relative border border-semi-grey mx-5 md:mx-10 xl:mx-20 2xl:mx-[120px] px-5 md:px-10 xl:px-20 py-5 sm:py-10 md:py-20 xl:flex gap-x-20' >
     <div class='flop h-[55vw] md:h-[46.878vw] xl:h-full relative top-3 md:top-5 xl:flex-1'></div>
 
     <div class='price__info flex flex-col  pt-2  xl:flex-1'>
