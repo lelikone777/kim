@@ -8,7 +8,7 @@ import { sample } from './sample.js'
 import { review } from './review.js'
 import { whyProject } from './whyProject.js'
 import { scene } from './scene.js'
-import { price } from '../mainPage/price.js'
+import { price } from '../main-page/price.js'
 import { projectSlider } from './projectSlider.js'
 import { process } from './process.js'
 
