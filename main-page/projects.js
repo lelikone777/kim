@@ -68,7 +68,7 @@ projects.innerHTML = `
             </div>
             <div class='projects__slide-info flex flex-col gap-y-3 2xl:gap-y-5' >
               <div class='projects__slide-title flex items-center justify-center w-fit'>
-               <button class='flex justify-between items-center gap-x-2 ml-2'>
+               <button class='flex justify-between items-center gap-x-2'>
                 <span class='text-button-primary'>
                   Мужское-женское-1
                 </span>

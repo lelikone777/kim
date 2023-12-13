@@ -12,7 +12,7 @@ mainFooter.innerHTML = `
 
       <div class='footer__nav flex flex-col md:flex-row justify-between gap-y-5 md:gap-y-10 md:gap-x-10 w-full text-14-300'>
         <div class='footer__table flex flex-1 flex-col'>
-          <a href='#' class='mb-1 text-16-400 !font-bold hover:hover-text'>О нас</a>
+          <a href='#' class='mb-1 md:mb-0 text-16-400 !font-bold hover:hover-text'>О нас</a>
           <div class='xl:flex xl:justify-between w-full gap-y-5 md:gap-y-10 md:gap-x-10'>
             <ul class='footer__list w-full [&>li]:py-2.5 [&>li]:border-b [&>li]:border-semi-grey [&>li>a]:flex [&>li>a]:w-full'>
               <li class='footer__list-item'>
