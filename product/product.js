@@ -7,7 +7,7 @@ import { ar } from './ar.js'
 import { whyUs } from './whyUs.js'
 import { recommendation } from './recommendation.js'
 import { others } from './others.js'
-import { contact } from '../mainPage/contact.js'
+// import { contact } from '../mainPage/contact.js'
 import { productPrice } from './productPrice.js'
 
 const productPage = document.querySelector('#product')
