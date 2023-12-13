@@ -10,7 +10,7 @@ import { contact } from './contact.js'
 import { mainHeader } from '../src/components/header/header.js'
 import { mainFooter } from '../src/components/footer/footer.js'
 
-export const mainPage = document.createElement('main')
+export const mainPage = document.querySelector('#main-page')
 
 mainPage.append(mainHeader)
 mainPage.append(signature)

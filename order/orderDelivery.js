@@ -25,9 +25,9 @@ orderDelivery.innerHTML = `
       <div class='order-contact'>
         <h3 class='text-20-300 mb-3'>Ваши контактные данные</h3>
         <div class='flex flex-col md:flex-row gap-y-2 gap-x-5'>
-          <input type='text' placeholder='имя' name='order-name' class='order-name flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase'>
-          <input type='text' placeholder='e-mail' name='order-email' class='order-email flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase'>
-          <input type='text' placeholder='телефон' name='order-phone' class='order-phone flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase'>   
+          <input type='text' placeholder='имя' name='order-name' class='order-name flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase hover:hover-input '>
+          <input type='text' placeholder='e-mail' name='order-email' class='order-email flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase hover:hover-input'>
+          <input type='text' placeholder='телефон' name='order-phone' class='order-phone flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase hover:hover-input'>   
         </div>
       </div>
     
@@ -66,9 +66,9 @@ orderDelivery.innerHTML = `
           </div>
           
           <div class='toggle-del grid grid-cols-1 md:grid-cols-2 gap-y-3 md:gap-x-5 2xl:gap-x-12'>
-            <textarea type='text' placeholder='Полный адрес доставки' rows='4' class='delivery-address-textarea col-span-1 md:col-span-2 px-4 py-[15px] w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] placeholder:tracking-[2.1px] placeholder:uppercase'></textarea>
+            <textarea type='text' placeholder='Полный адрес доставки' rows='4' class='delivery-address-textarea col-span-1 md:col-span-2 px-4 py-[15px] w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] placeholder:tracking-[2.1px] placeholder:uppercase hover:hover-input'></textarea>
             <div class='flex gap-x-2 px-4 py-[15px] border border-secondary border-l-primary col-span-1 h-[48px] 2xl:h-[64px]'>
-              <input type='text' placeholder='Желаемая дата и время' class='delivery-date  w-full h-full placeholder:text-light-grey placeholder:text-[14px] placeholder:tracking-[2.1px] placeholder:uppercase max-h-12'/>
+              <input type='text' placeholder='Желаемая дата и время' class='delivery-date  w-full h-full placeholder:text-light-grey placeholder:text-[14px] placeholder:tracking-[2.1px] placeholder:uppercase max-h-12 hover:hover-input'/>
               <svg xmlns='http://www.w3.org/2000/svg' width='25' height='20' viewBox='0 0 25 20' fill='none'>
                 <path d='M9.5 2.25H12.5H15.5M4.5 2.25H1V19.25H24V2.25H20.5' stroke='#033260'/>
                 <path d='M7 3.75V0.75' stroke='#033260'/>
@@ -83,7 +83,7 @@ orderDelivery.innerHTML = `
             </div>
             <div class='check-setup flex items-center justify-between col-span-1'>
               <div class='price__form-check flex items-center gap-x-3'>   
-                <input id='primary-checkbox' type='checkbox' value='' class='relative peer shrink-0 appearance-none w-5 h-5 2xl:w-7 2xl:h-7 border border-primary rounded-none bg-light'/>
+                <input id='primary-checkbox' type='checkbox' value='' class='relative peer shrink-0 appearance-none w-5 h-5 2xl:w-7 2xl:h-7 border border-primary rounded-none bg-light checked:hover:hover-bg'/>
                 <label for='primary-checkbox' class=' text-14-300'>Нужен монтаж</label>
                 <img src='/img/icons/checked-icon.svg' alt='check arrow' class='absolute w-5 h-5 2xl:w-7 2xl:h-7 hidden peer-checked:block pointer-events-none'/>
               </div>    
@@ -98,7 +98,7 @@ orderDelivery.innerHTML = `
                 <path d='M11 0V12M11 12L7 8M11 12L15 8' stroke='#033260'/>
                 <path d='M1 12V17H21V12' stroke='#033260'/>
               </svg>
-              <span class='text-12-400-header !font-bold text-primary uppercase'>инструкция как нас найти</span>
+              <span class='text-12-400-header !font-bold text-primary uppercase hover:hover-text'>инструкция как нас найти</span>
             </button>
             
             <div class='toggle-self-map m-auto w-full'> 
@@ -121,7 +121,7 @@ orderDelivery.innerHTML = `
         </div>
         
         <div class='cert-name-input relative mb-4 md:mb-7 2xl:mb-10'>
-          <input type='text' placeholder='Иванов Иван Иванович' name='order-name-cert' id='order-name-cert' class='order-name-cert flex px-4 pt-[23px] pb-[7px] 2xl:px-5 w-full 2xl:h-[64px] border border-secondary border-l-primary placeholder:text-dark placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase'>     
+          <input type='text' placeholder='Иванов Иван Иванович' name='order-name-cert' id='order-name-cert' class='order-name-cert flex px-4 pt-[23px] pb-[7px] 2xl:px-5 w-full 2xl:h-[64px] border border-secondary border-l-primary placeholder:text-dark placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase hover:hover-input'>     
           <label for='order-name-cert' class='absolute top-[7px] left-[16px] xl:left-[22px] text-10-350-header light-grey'>ФИО получателя</label>
         </div>
         
@@ -153,12 +153,12 @@ orderDelivery.innerHTML = `
         </div>
         
         <div class='cert-address-inputs grid grid-cols-2 md:grid-cols-4 gap-y-2 gap-x-2 2xl:gap-y-5 2xl:gap-x-5'>
-          <input type='text' placeholder='индекс' name='cert-index' class='cert-index flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-2'>
-          <input type='text' placeholder='город' name='cert-city' class='cert-city flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-2'>
-          <input type='text' placeholder='Улица' name='cert-street' class='cert-street flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-2'>   
+          <input type='text' placeholder='индекс' name='cert-index' class='cert-index flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-2 hover:hover-input'>
+          <input type='text' placeholder='город' name='cert-city' class='cert-city flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-2 hover:hover-input'>
+          <input type='text' placeholder='Улица' name='cert-street' class='cert-street flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-2 hover:hover-input'>   
           
-          <input type='text' placeholder='дом, корпус' name='cert-house' class='cert-house flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-1'>   
-          <input type='text' placeholder='квартира' name='cert-flat' class='cert-flat flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-1'>   
+          <input type='text' placeholder='дом, корпус' name='cert-house' class='cert-house flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-1 hover:hover-input'>   
+          <input type='text' placeholder='квартира' name='cert-flat' class='cert-flat flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-1 hover:hover-input'>   
         </div>
       </div>
       
@@ -169,13 +169,13 @@ orderDelivery.innerHTML = `
         </div>
         
         <div class='cert-check flex items-center gap-x-3 mb-3 xl:mb-6'>   
-          <input id='cert-check-email' type='checkbox' value='' class='relative peer shrink-0 appearance-none w-5 h-5 2xl:w-7 2xl:h-7 border border-primary rounded-none bg-light'/>
+          <input id='cert-check-email' type='checkbox' value='' class='relative peer shrink-0 appearance-none w-5 h-5 2xl:w-7 2xl:h-7 border border-primary rounded-none bg-light hover:hover-input'/>
           <label for='cert-check-email' class=' text-14-300'>Такие же как у первого</label>
           <img src='/img/icons/checked-icon.svg' alt='check arrow' class='absolute w-5 h-5 2xl:w-7 2xl:h-7 hidden peer-checked:block pointer-events-none'/>
         </div>    
         
         <div class='cert-name-input relative mb-4 md:mb-7 2xl:mb-10'>
-          <input type='text' placeholder='Иванов Иван Иванович' name='order-name-cert' id='order-name-cert' class='order-name-cert flex px-4 pt-[23px] pb-[7px] 2xl:px-5 w-full 2xl:h-[64px] border border-secondary border-l-primary placeholder:text-dark placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase'>     
+          <input type='text' placeholder='Иванов Иван Иванович' name='order-name-cert' id='order-name-cert' class='order-name-cert flex px-4 pt-[23px] pb-[7px] 2xl:px-5 w-full 2xl:h-[64px] border border-secondary border-l-primary placeholder:text-dark placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase hover:hover-input'>     
           <label for='order-name-cert' class='absolute top-[7px] left-[16px] xl:left-[22px] text-10-350-header light-grey'>ФИО получателя</label>
         </div>
         
@@ -207,7 +207,7 @@ orderDelivery.innerHTML = `
         </div>
         
         <div class='cert-address-inputs grid grid-cols-2 md:grid-cols-4 gap-y-2 gap-x-2 2xl:gap-y-5 2xl:gap-x-5'>
-          <input type='text' placeholder='e-mail на который отправить' name='cert-email' class='cert-index flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-4'>
+          <input type='text' placeholder='e-mail на который отправить' name='cert-email' class='cert-index flex px-4 py-[15px] 2xl:py-[22px] 2xl:px-5 w-full border border-secondary border-l-primary placeholder:text-light-grey placeholder:text-[14px] 2xl:placeholder:text-[16px] placeholder:tracking-[2.1px] placeholder:uppercase col-span-4 hover:hover-input'>
         </div>
       </div>
 
@@ -240,12 +240,12 @@ orderDelivery.innerHTML = `
       <div class='order-summary-accept'>
         <div class='summary-accept-wrap flex flex-col gap-y-3 md:flex-row md:justify-between md:gap-x-5 xl:gap-x-12'>
           <div class='summary-accept-check flex items-center gap-x-3 md:flex-1'>
-            <input checked id='summary-accept-checkbox' type='checkbox' value='' class='relative peer shrink-0 appearance-none w-5 h-5 2xl:w-7 2xl:h-7 border border-primary rounded-none bg-light'>
+            <input checked id='summary-accept-checkbox' type='checkbox' value='' class='relative peer shrink-0 appearance-none w-5 h-5 2xl:w-7 2xl:h-7 border border-primary rounded-none bg-light checked:hover:hover-bg'>
             <label for='summary-accept-checkbox' class='text-light-grey text-10-350-header'>Даю своё согласие на обработку своей персональной информации на условиях, определенных Политикой в отношении обработки персональных данных.
             </label>
             <img src='/img/icons/checked-icon.svg' alt='check arrow' class='absolute w-5 h-5 2xl:w-7 2xl:h-7 hidden peer-checked:block pointer-events-none'>
           </div>
-          <button class='summary-accept-button w-full px-4 2xl:px-10 py-[15px] 2xl:py-[22px] text-light text-button-primary uppercase bg-primary sm:px-6 md:flex-1'>
+          <button class='summary-accept-button w-full px-4 2xl:px-10 py-[15px] 2xl:py-[22px] text-light text-button-primary uppercase bg-primary sm:px-6 md:flex-1 hover:hover-bg'>
             перейти к оплате
           </button>
         </div>

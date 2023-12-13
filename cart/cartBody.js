@@ -256,7 +256,7 @@ cartBody.innerHTML = `
         <span id='cart-price' class='sum text-16-400 !font-bold'>59 600 руб.</span>
       </div>
       
-      <button class='footer__button flex-center xl:justify-start'>
+      <button class='footer__button flex-center xl:justify-start hover:hover-bg'>
         <span class='w-full min-w-[220px] flex justify-center items-center xl:justify-start xl:w-fit text-button-primary bg-primary text-light px-10 py-4'>
           перейти к оформлению
         </span>

@@ -1,6 +1,6 @@
 import '/src/css/fonts.css'
 import '/src/css/global.css'
-import { mainPage } from '/mainPage/mainPage.js'
+import { mainPage } from '/main-page/mainPage.js'
 import { headerDropdown } from './src/components/header/header-dropdown.js'
 import { headerMobile } from './src/components/header/header-mobile.js'
 
