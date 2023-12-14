@@ -21,7 +21,7 @@ aboutStudioPhilosophy.innerHTML = `
     
     
     <div class='px-5 md:px-10 xl:px-0 max-w-screen-2xl m-auto grid grid-cols-2 grid-flow-row-dense [&div>]:col-span-1 gap-x-5 gap-y-5 my-5 md:my-10 2xl:my-[64px] md:gap-x-10 xl:gap-x-[42px] 2xl:gap-x-[52px]'>
-      <div class='place-self-start py-5 md:pt-10 xl:pl-20 2xl:pl-[120px] 2xl:pt-20'>
+      <div class='place-self-start py-5 md:pt-10 xl:pl-20 2xl:pl-[120px] 2xl:pt-20 xl:pr-[104px] 2xl:pr-[146px]'>
         <p class='text-14-20-300 text-left'>Интерьер может быть каким угодно. Правда. Потому что люди ужасно разные. И это прекрасно.</p>
       </div>
       <div class='row-start-2 row-end-4'>
@@ -32,7 +32,7 @@ aboutStudioPhilosophy.innerHTML = `
         <img src='/img/images/about-studio/top-sm-7.jpg' alt='7sm' class='md:hidden'>
         <img src='/img/images/about-studio/top-2xl-7.jpg' alt='7xl' class='hidden md:block'>
       </div>
-      <div class='place-self-start py-5 md:pb-10 xl:pr-20 2xl:pr-[120px] 2xl:pb-20'>
+      <div class='place-self-start py-5 md:pb-10 xl:pr-20 2xl:pr-[120px] 2xl:pb-20 xl:pl-[104px] 2xl:pl-[146px]'>
         <p class='text-14-20-300 text-left'>Декор — это не дополнение, не опция, не бонус. Это акценты и даже доминанты пространства.</p>
       </div>
     </div>

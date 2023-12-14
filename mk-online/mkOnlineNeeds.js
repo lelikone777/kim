@@ -11,10 +11,10 @@ mkOnlineNeeds.innerHTML = `
     </div> 
     
     
-    <div class='academy-needs__list xl:grid xl:grid-cols-6 xl:grid-flow-row-dense xl:gap-y-[42px] 2xl:gap-y-[64px]'>
+    <div class='academy-needs__list xl:grid xl:grid-cols-6 xl:grid-flow-row-dense xl:gap-y-[42px] 2xl:gap-y-[64px] border-t border-b border-semi-grey xl:border-none'>
 
        <!--1-->
-      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-t border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start'>
+      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start'>
         <div class=' flex justify-center items-center w-12 h-12 xl:w-16 xl:h-16 border border-semi-grey shrink-0 relative'>
           <span class='text-26-300'>1</span>
         </div>
@@ -29,7 +29,7 @@ mkOnlineNeeds.innerHTML = `
       </div>
       
        <!--2-->
-      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-t border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
+      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
         <div class=' flex justify-center items-center w-12 h-12 xl:w-16 xl:h-16 border border-semi-grey shrink-0 relative'>
           <span class='text-26-300'>2</span>
         </div>
@@ -44,7 +44,7 @@ mkOnlineNeeds.innerHTML = `
       </div>
       
        <!--3-->
-      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-t border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
+      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
         <div class=' flex justify-center items-center w-12 h-12 xl:w-16 xl:h-16 border border-semi-grey shrink-0 relative'>
           <span class='text-26-300'>3</span>
         </div>
@@ -59,7 +59,7 @@ mkOnlineNeeds.innerHTML = `
       </div>
       
        <!--4-->
-      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-t border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
+      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
         <div class=' flex justify-center items-center w-12 h-12 xl:w-16 xl:h-16 border border-semi-grey shrink-0 relative'>
           <span class='text-26-300'>4</span>
         </div>
@@ -74,7 +74,7 @@ mkOnlineNeeds.innerHTML = `
       </div>
       
        <!--5-->
-      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-t border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
+      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
         <div class=' flex justify-center items-center w-12 h-12 xl:w-16 xl:h-16 border border-semi-grey shrink-0 relative'>
           <span class='text-26-300'>5</span>
         </div>
@@ -89,7 +89,7 @@ mkOnlineNeeds.innerHTML = `
       </div>
       
        <!--6-->
-      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-t border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none  xl:items-start'>
+      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none  xl:items-start'>
         <div class=' flex justify-center items-center w-12 h-12 xl:w-16 xl:h-16 border border-semi-grey shrink-0 relative'>
           <span class='text-26-300'>6</span>
         </div>
@@ -104,7 +104,7 @@ mkOnlineNeeds.innerHTML = `
       </div>
       
       <!--7-->
-      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-t border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
+      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
         <div class=' flex justify-center items-center w-12 h-12 xl:w-16 xl:h-16 border border-semi-grey shrink-0 relative'>
           <span class='text-26-300'>7</span>
         </div>
@@ -119,7 +119,7 @@ mkOnlineNeeds.innerHTML = `
       </div>
       
       <!--8-->
-      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-t border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
+      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
         <div class=' flex justify-center items-center w-12 h-12 xl:w-16 xl:h-16 border border-semi-grey shrink-0 relative'>
           <span class='text-26-300'>8</span>
         </div>
@@ -134,7 +134,7 @@ mkOnlineNeeds.innerHTML = `
       </div>
       
       <!--9-->
-      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-t border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
+      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
         <div class=' flex justify-center items-center w-12 h-12 xl:w-16 xl:h-16 border border-semi-grey shrink-0 relative'>
           <span class='text-26-300'>7</span>
         </div>
@@ -149,7 +149,7 @@ mkOnlineNeeds.innerHTML = `
       </div>
       
       <!--10-->
-      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-t border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
+      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start '>
         <div class=' flex justify-center items-center w-12 h-12 xl:w-16 xl:h-16 border border-semi-grey shrink-0 relative'>
           <span class='text-26-300'>10</span>
         </div>
@@ -164,7 +164,7 @@ mkOnlineNeeds.innerHTML = `
       </div>
       
       <!--11-->
-      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3 border-t border-b border-semi-grey xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start ' >
+      <div class='academy-list__item flex items-center justify-start gap-x-5 py-3  xl:col-span-1 xl:flex-col xl:gap-y-5 xl:border-none xl:items-start ' >
         <div class=' flex justify-center items-center w-12 h-12 xl:w-16 xl:h-16 border border-semi-grey shrink-0 relative'>
           <span class='text-26-300'>11</span>
         </div>

@@ -15,24 +15,31 @@ academyYoutube.innerHTML = `
       <img src='/img/images/academy/youtube-2xl.jpg' alt='youtube-preview'>
     </div>
     
-    <div class='academy-youtube__blocks grid grid-cols-2 grid-rows-2 text-center text-light-grey col-span-1 xl:order-3'>
+    <div class='academy-youtube__blocks grid grid-cols-2 grid-rows-2 text-center text-light-grey col-span-1 xl:order-3 relative border border-semi-grey'>
+      
+      <div class='absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <line y1="9.5" x2="20" y2="9.5" stroke="#033260"/>
+          <line x1="10.5" y1="2.18557e-08" x2="10.5" y2="20" stroke="#033260"/>
+        </svg>
+      </div>
     
-      <div class='flex flex-col justify-center items-center p-5 xl:p-10 border border-semi-grey col-span-1 gap-y-1'>
+      <div class='flex flex-col justify-center items-center p-5 xl:p-10 border-r border-semi-grey col-span-1 gap-y-1'>
         <span class='text-26-300 xl:!text-[40px]  text-light-grey'>>  <span class='text-primary'>200</span></span>
         <p class='text-14-400'>Талантливых выпускников</p>
       </div>
       
-       <div class='flex flex-col justify-center items-center p-5 xl:p-10 border border-semi-grey col-span-1 gap-y-1'>
+       <div class='flex flex-col justify-center items-center p-5 xl:p-10 border-b border-semi-grey col-span-1 gap-y-1'>
         <span class='text-26-300  xl:!text-[40px] text-light-grey'>>  <span class='text-primary'>50</span></span>
         <p class='text-14-400'>Проведённых мастерклассов</p>
       </div>
       
-       <div class='flex flex-col justify-center items-center p-5 xl:p-10 border border-semi-grey col-span-1 gap-y-1'>
+       <div class='flex flex-col justify-center items-center p-5 xl:p-10 border-t border-semi-grey col-span-1 gap-y-1'>
         <span class='text-26-300  xl:!text-[40px] text-light-grey'>>  <span class='text-primary'>200</span></span>
         <p class='text-14-400'>Чего-то ещё</p>
       </div>
       
-       <div class='flex flex-col justify-center items-center p-5 xl:p-10 border border-semi-grey col-span-1 gap-y-1'>
+       <div class='flex flex-col justify-center items-center p-5 xl:p-10 border-l border-semi-grey col-span-1 gap-y-1'>
         <span class='text-26-300  xl:!text-[40px] text-light-grey'>>  <span class='text-primary'>50</span></span>
         <p class='text-14-400'>Чего-то ещё</p>
       </div>
