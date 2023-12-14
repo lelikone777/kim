@@ -16,6 +16,11 @@ img {
     height: auto;
 }
 
+input, textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
 input[type=checkbox], input[type=radio], label {
     cursor: pointer;
 }
