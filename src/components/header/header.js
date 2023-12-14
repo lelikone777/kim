@@ -1,7 +1,7 @@
 export const mainHeader = document.createElement('header')
 mainHeader.innerHTML = `
  
-   <div class='header relative text-light bg-hero-main-page bg-[length:auto_100%] bg-no-repeat bg-top min-h-screen md:bg-cover'>
+   <div class='header relative text-light bg-hero-main-page bg-[length:auto_100%] bg-no-repeat bg-top min-h-[100dvh] md:bg-cover'>
 
       <div class='header__container flex flex-col justify-between w-full h-screen m-auto'>
       
